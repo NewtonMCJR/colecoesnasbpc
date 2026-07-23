@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary text summaries from extraction
+pdf_text.txt
+extracted_data_summary.md
+
+# Virtual environments
+.venv/
+venv/
+env/

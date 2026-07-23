@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Martha Maria Pereira - Coleção CLEP | FIOCRUZ SBPC 2026</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        fiocruz: {
+                            blue: '#00529b',
+                            gold: '#c59b27',
+                            dark: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-outfit { font-family: 'Outfit', sans-serif; }
+        body {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        body.loaded {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 font-sansLoaded min-h-screen flex flex-col antialiased loaded">
+
+    <!-- Top Header Banner -->
+    <header class="bg-white/90 backdrop-blur border-b border-gray-150 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-xs font-bold text-gray-600 hover:text-gray-900 transition-colors uppercase tracking-wider">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+                Portal SBPC
+            </a>
+            <div class="flex items-center gap-4 text-xs font-semibold text-gray-400 font-mono tracking-widest uppercase">
+                <span>CLEP</span>
+                <span>|</span>
+                <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Researcher Hero Section -->
+    <section class="bg-fiocruz-dark text-white py-12 sm:py-20 relative overflow-hidden">
+        <!-- Background decorative vectors -->
+        <div class="absolute -top-48 -right-48 w-[400px] h-[400px] rounded-full bg-gradient-to-br from-amber-600 to-orange-850 opacity-20 blur-3xl"></div>
+        <div class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                <!-- Portrait / Illustration -->
+                <div class="lg:col-span-5 order-first lg:order-last">
+                    
+            <div class="relative max-w-sm mx-auto aspect-[3/4] bg-white/5 border border-white/10 rounded-3xl p-4 shadow-2xl backdrop-blur-sm group overflow-hidden">
+                <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                <!-- Frame effect -->
+                <div class="w-full h-full border border-white/20 rounded-2xl overflow-hidden relative">
+                    <img src="../assets/images/CLEP_image1.jpg" alt="Dra. Martha Maria Pereira" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+                </div>
+            </div>
+            
+                </div>
+                
+                <!-- Quick facts & Name -->
+                <div class="lg:col-span-7 flex flex-col">
+                    <span class="inline-flex items-center gap-1.5 self-start px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-white border border-white/10 uppercase tracking-widest mb-6 font-mono">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        Homenageada CLEP
+                    </span>
+                    
+                    <h1 class="font-outfit text-4xl sm:text-5xl font-extrabold tracking-tight mb-2 leading-none">Dra. Martha Maria Pereira</h1>
+                    <p class="text-md sm:text-lg text-gray-300 font-medium tracking-wide uppercase font-outfit mt-1">Bióloga, com foco no estudo da Leptospirose</p>
+                    <p class="text-xs text-gray-400 font-mono tracking-widest mt-2">Coleção de Leptospira (CLEP)</p>
+                    <div class="w-20 h-1 bg-gradient-to-r from-amber-600 to-orange-850 rounded mt-4"></div>
+                    
+                    <!-- Career Timeline Summary -->
+                    <div class="mt-6 flex flex-wrap gap-4 text-xs font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-4 self-start">
+                        <div>
+                            <span class="block text-gray-400 uppercase text-[10px] tracking-wider">Período de atuação</span>
+                            <span class="text-sm font-semibold">1980–atual</span>
+                        </div>
+                        <div class="w-px bg-white/10 hidden sm:block"></div>
+                        <div>
+                            <span class="block text-gray-400 uppercase text-[10px] tracking-wider">Instituição</span>
+                            <span class="text-sm font-semibold">Fiocruz / IOC</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Quote of researcher -->
+                    <p class="mt-8 text-md sm:text-lg italic text-gray-200 border-l-4 border-amber-500 pl-4 leading-relaxed font-light">
+                        “Sua trajetória une ciência, liderança e compromisso público, fortalecendo o enfrentamento da leptospirose no Brasil e no mundo.”
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Guide (Audio Assistente) -->
+    <div class="bg-gradient-to-r from-amber-600 to-orange-850 text-white py-4 shadow-inner">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center animate-pulse">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                </div>
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider block opacity-70">Áudio Guia Acessível</span>
+                    <span class="text-sm font-bold block">Ouça a trajetória da pesquisadora</span>
+                </div>
+            </div>
+            
+            <!-- TTS Buttons -->
+            <div class="flex items-center gap-3">
+                <button onclick="startAudio()" id="play-btn" class="flex items-center gap-2 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full hover:bg-slate-100 active:scale-95 shadow-lg shadow-black/10 transition-all">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                    Ouvir Áudio
+                </button>
+                <button onclick="stopAudio()" id="stop-btn" class="hidden flex items-center gap-2 bg-black/40 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full hover:bg-black/60 active:scale-95 transition-all">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
+                    Pausar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Tabs -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12 flex-grow">
+        
+        <!-- Tab buttons (Mobile responsive scrolling wrapper) -->
+        <div class="border-b border-gray-200 overflow-x-auto whitespace-nowrap scrollbar-none">
+            <div class="flex space-x-8 min-w-full pb-px justify-start sm:justify-center">
+                <button onclick="switchTab(0)" class="tab-btn py-4 border-b-2 border-amber-500 text-amber-600 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
+                    1. Quem foi?
+                </button>
+                <button onclick="switchTab(1)" class="tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
+                    2. Contribuição
+                </button>
+                <button onclick="switchTab(2)" class="tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
+                    3. Importância
+                </button>
+                <button onclick="switchTab(3)" class="tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
+                    4. Legado
+                </button>
+            </div>
+        </div>
+
+        <!-- Tab content panels -->
+        <div class="mt-8 bg-white border border-gray-150 rounded-3xl p-6 sm:p-10 shadow-md min-h-[300px]">
+            
+            <!-- Panel 0: Quem foi -->
+            <div class="tab-panel space-y-6 block">
+                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Biografia de Homenagem</h3>
+                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">Dra. Martha Maria Pereira desenvolveu toda sua carreira no Instituto Oswaldo Cruz/Fiocruz com o tema Leptospirose. Bióloga de formação, mestre em Biologia Parasitária e doutora em Biologia Celular e Molecular, impulsionou o conhecimento sobre a doença e seu agente etiológico. Contribuiu significativamente para a saúde pública ao atuar na estruturação de redes de diagnóstico junto ao Ministério da Saúde.</p>
+            </div>
+
+            <!-- Panel 1: Contribuição -->
+            <div class="tab-panel space-y-6 hidden">
+                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Contribuição para as Coleções Biológicas</h3>
+                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">Participou do isolamento das primeiras linhagens de Leptospira spp. que compõem o acervo da Coleção de Leptospira. Em 1985, isolou e identificou o sorovar Cuica, um achado inédito no mundo. Sob sua liderança, o Laboratório de Referência Nacional foi credenciado, impulsionando o crescimento e diversificação das cepas da coleção.</p>
+            </div>
+
+            <!-- Panel 2: Importância -->
+            <div class="tab-panel space-y-6 hidden">
+                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Por que sua trajetória é importante?</h3>
+                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">Liderou a estruturação do Serviço de Diagnóstico da Leptospirose do IOC, credenciado como Laboratório de Referência Nacional pelo Ministério da Saúde e, posteriormente, como Centro Colaborador da Organização Mundial da Saúde (OMS) para Leptospirose, consolidando o prestígio científico internacional da Fiocruz na área.</p>
+            </div>
+
+            <!-- Panel 3: Legado / Curiosidades -->
+            <div class="tab-panel space-y-6 hidden">
+                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Curiosidades e Legado Histórico</h3>
+                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">Atuou como vice-diretora do Instituto Oswaldo Cruz e chefe do Departamento de Bacteriologia. Foi fundamental na formação de centenas de alunos e profissionais de Laboratórios Centrais de Saúde Pública (LACENs) de todo o Brasil, disseminando protocolos e técnicas de diagnóstico da leptospirose.</p>
+            </div>
+            
+        </div>
+
+        
+
+        
+
+        <!-- Inspiring card -->
+        <div class="mt-12 bg-gradient-to-r from-amber-600 to-orange-850 rounded-3xl p-8 sm:p-12 text-white relative overflow-hidden shadow-lg">
+            <div class="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="max-w-3xl relative z-10">
+                <span class="text-xs font-mono font-bold tracking-widest text-white/70 uppercase block mb-4">Mensagem Inspiradora da Homenageada</span>
+                <p class="font-outfit text-lg sm:text-2xl italic leading-relaxed font-light">
+                    “A ciência e a saúde pública caminham lado a lado quando dedicamos nosso esforço a levar respostas diretamente do laboratório para o bem-estar da sociedade.”
+                </p>
+                <div class="mt-6 flex items-center gap-3 text-xs font-semibold text-white/80">
+                    <span class="w-6 h-[2px] bg-white/40"></span>
+                    <span>Homenagem da Coleção CLEP e VPPCB na SBPC 2026</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Navigation Hub Portal Link -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-16 text-center">
+        <a href="../index.html" class="inline-flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-full hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow shadow-black/10 active:scale-95">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+            Ver Outras Homenageadas
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-gray-500">
+            <div class="text-center sm:text-left">
+                <span class="font-bold text-gray-400 block text-sm uppercase">FIOCRUZ</span>
+                <span class="block mt-0.5">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
+            </div>
+            <div class="text-center sm:text-right">
+                <p>© 2026 Fundação Oswaldo Cruz. Desenvolvido para a SBPC 2026 (Niterói/UFF).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tab Switching and TTS Scripting -->
+    <script>
+        // Tab system
+        function switchTab(index) {
+            const btns = document.querySelectorAll(".tab-btn");
+            const panels = document.querySelectorAll(".tab-panel");
+            
+            btns.forEach((btn, idx) => {
+                if (idx === index) {
+                    btn.className = "tab-btn py-4 border-b-2 border-amber-500 text-amber-600 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300";
+                } else {
+                    btn.className = "tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300";
+                }
+            });
+            
+            panels.forEach((panel, idx) => {
+                if (idx === index) {
+                    panel.classList.remove("hidden");
+                    panel.classList.add("block");
+                } else {
+                    panel.classList.remove("block");
+                    panel.classList.add("hidden");
+                }
+            });
+        }
+
+        // Text-to-Speech (TTS) logic using Web Speech API
+        let speechSynth = window.speechSynthesis;
+        let speechUtterance = null;
+        let isSpeaking = false;
+
+        function startAudio() {
+            if (!speechSynth) {
+                alert("Desculpe, seu navegador não suporta a síntese de voz.");
+                return;
+            }
+
+            // If paused, resume
+            if (speechSynth.paused && isSpeaking) {
+                speechSynth.resume();
+                document.getElementById("play-btn").classList.add("hidden");
+                document.getElementById("stop-btn").classList.remove("hidden");
+                return;
+            }
+
+            // Stop any ongoing speech
+            speechSynth.cancel();
+
+            const textToSpeak = "Homenagem da Coleção CLEP. Dra. Martha Maria Pereira. Dra. Martha Maria Pereira desenvolveu toda sua carreira no Instituto Oswaldo Cruz/Fiocruz com o tema Leptospirose. Bióloga de formação, mestre em Biologia Parasitária e doutora em Biologia Celular e Molecular, impulsionou o conhecimento sobre a doença e seu agente etiológico. Contribuiu significativamente para a saúde pública ao atuar na estruturação de redes de diagnóstico junto ao Ministério da Saúde. Participou do isolamento das primeiras linhagens de Leptospira spp. que compõem o acervo da Coleção de Leptospira. Em 1985, isolou e identificou o sorovar Cuica, um achado inédito no mundo. Sob sua liderança, o Laboratório de Referência Nacional foi credenciado, impulsionando o crescimento e diversificação das cepas da coleção. Liderou a estruturação do Serviço de Diagnóstico da Leptospirose do IOC, credenciado como Laboratório de Referência Nacional pelo Ministério da Saúde e, posteriormente, como Centro Colaborador da Organização Mundial da Saúde (OMS) para Leptospirose, consolidando o prestígio científico internacional da Fiocruz na área. Atuou como vice-diretora do Instituto Oswaldo Cruz e chefe do Departamento de Bacteriologia. Foi fundamental na formação de centenas de alunos e profissionais de Laboratórios Centrais de Saúde Pública (LACENs) de todo o Brasil, disseminando protocolos e técnicas de diagnóstico da leptospirose. Mensagem inspiradora: A ciência e a saúde pública caminham lado a lado quando dedicamos nosso esforço a levar respostas diretamente do laboratório para o bem-estar da sociedade.";
+            speechUtterance = new SpeechSynthesisUtterance(textToSpeak);
+            speechUtterance.lang = "pt-BR";
+            
+            // Set voice to a Portuguese one if available
+            const voices = speechSynth.getVoices();
+            const ptVoice = voices.find(v => v.lang.startsWith("pt"));
+            if (ptVoice) {
+                speechUtterance.voice = ptVoice;
+            }
+
+            speechUtterance.onstart = () => {
+                isSpeaking = true;
+                document.getElementById("play-btn").classList.add("hidden");
+                document.getElementById("stop-btn").classList.remove("hidden");
+            };
+
+            speechUtterance.onend = () => {
+                resetAudioUI();
+            };
+
+            speechUtterance.onerror = () => {
+                resetAudioUI();
+            };
+
+            speechSynth.speak(speechUtterance);
+        }
+
+        function stopAudio() {
+            if (speechSynth && speechSynth.speaking) {
+                speechSynth.pause();
+                document.getElementById("play-btn").classList.remove("hidden");
+                document.getElementById("stop-btn").classList.add("hidden");
+            }
+        }
+
+        function resetAudioUI() {
+            isSpeaking = false;
+            document.getElementById("play-btn").classList.remove("hidden");
+            document.getElementById("stop-btn").classList.add("hidden");
+        }
+
+        // Cancel speech when leaving page
+        window.addEventListener("beforeunload", () => {
+            if (speechSynth) {
+                speechSynth.cancel();
+            }
+        });
+        
+        // Ensure voice list is loaded for Chrome
+        if (speechSynth && speechSynth.onvoiceschanged !== undefined) {
+            speechSynth.onvoiceschanged = () => {};
+        }
+    </script>
+</body>
+</html>
