@@ -329,7 +329,9 @@ collections_data = {
             "shadow": "shadow-red-100",
             "focus_ring": "focus:ring-red-500"
         },
-        "videos": []
+        "videos": [
+            {"title": "Entrevista da Dra. Itália Kerr (Base Arch - Fiocruz)", "url": "https://basearch.coc.fiocruz.br/index.php/italia-guarany-angiola-kerr"}
+        ]
     }
 }
 
@@ -620,6 +622,7 @@ def generate_individual_pages():
                     </div>
                     """
                 else:
+                    link_label = "Acessar no YouTube" if "youtube" in embed_url or "youtu.be" in embed_url else "Acessar acervo histórico"
                     videos_html += f"""
                     <a href="{vid['url']}" target="_blank" class="flex items-center p-3.5 bg-white border border-gray-200 rounded-2xl hover:bg-gray-50 transition-colors shadow-sm gap-3 group min-h-[64px]">
                         <div class="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 flex-shrink-0">
@@ -627,7 +630,7 @@ def generate_individual_pages():
                         </div>
                         <div class="overflow-hidden">
                             <span class="text-xs sm:text-sm font-semibold text-gray-800 block leading-tight truncate group-hover:underline">{vid['title']}</span>
-                            <span class="text-[10px] text-gray-400 mt-0.5 block">Acessar no YouTube</span>
+                            <span class="text-[10px] text-gray-400 mt-0.5 block">{link_label}</span>
                         </div>
                     </a>
                     """
