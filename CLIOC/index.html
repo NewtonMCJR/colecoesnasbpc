@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selma Quintella Soares - Coleção CLIOC | FIOCRUZ SBPC 2026</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -32,34 +35,50 @@
         }
     </script>
     <style>
-        .font-outfit { font-family: 'Outfit', sans-serif; }
+        .font-outfit {
+            font-family: 'Outfit', sans-serif;
+        }
+
         body {
             opacity: 0;
             transition: opacity 0.4s ease-in-out;
         }
+
         body.loaded {
             opacity: 1;
         }
+
         /* Audio Player Bar animation */
         .audio-bar-in {
             animation: slideUp 0.3s ease-out forwards;
         }
+
         @keyframes slideUp {
-            from { transform: translateY(100%); }
-            to { transform: translateY(0); }
+            from {
+                transform: translateY(100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
+
 <body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded">
 
     <!-- Top Header Banner (Mobile-ready, large tap targets) -->
     <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm">
         <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-            <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+            <a href="../index.html"
+                class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+                </svg>
                 Portal SBPC
             </a>
-            <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
+            <div
+                class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
                 <span>CLIOC</span>
                 <span>|</span>
                 <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
@@ -69,40 +88,55 @@
 
     <!-- Researcher Hero Section (Mobile-first Layout) -->
     <section class="bg-fiocruz-dark text-white py-10 sm:py-16 relative overflow-hidden">
-        <div class="absolute -top-48 -right-48 w-96 h-96 rounded-full bg-gradient-to-br from-fuchsia-600 to-pink-850 opacity-15 blur-3xl"></div>
-        <div class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
-        
+        <div
+            class="absolute -top-48 -right-48 w-96 h-96 rounded-full bg-gradient-to-br from-fuchsia-600 to-pink-850 opacity-15 blur-3xl">
+        </div>
+        <div
+            class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]">
+        </div>
+
         <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-                
+
                 <!-- Portrait / Illustration -->
                 <div class="w-full lg:w-1/3 flex-shrink-0 flex justify-center">
-                    
-            <div class="relative w-full max-w-[280px] mx-auto aspect-[3/4] bg-white/5 border border-white/10 rounded-2xl p-3 shadow-xl backdrop-blur-sm overflow-hidden">
-                <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-                <div class="w-full h-full border border-white/20 rounded-xl overflow-hidden relative">
-                    <img src="../assets/images/CLIOC_image1.png" alt="Selma Quintella Soares" class="w-full h-full object-cover rounded-lg" />
+
+                    <div
+                        class="relative w-full max-w-[280px] mx-auto aspect-[3/4] bg-white/5 border border-white/10 rounded-2xl p-3 shadow-xl backdrop-blur-sm overflow-hidden">
+                        <div
+                            class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]">
+                        </div>
+                        <div class="w-full h-full border border-white/20 rounded-xl overflow-hidden relative">
+                            <img src="../assets/images/CLIOC_images1.jpg" alt="Selma Quintella Soares"
+                                class="w-full h-full object-cover rounded-lg" />
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-            
-                </div>
-                
+
                 <!-- Quick facts & Name -->
                 <div class="w-full lg:w-2/3 flex flex-col">
-                    <span class="inline-flex items-center gap-1.5 self-start px-2.5 py-0.5 rounded-full text-[9px] font-bold bg-white/10 text-white border border-white/10 uppercase tracking-widest mb-4 font-mono">
+                    <span
+                        class="inline-flex items-center gap-1.5 self-start px-2.5 py-0.5 rounded-full text-[9px] font-bold bg-white/10 text-white border border-white/10 uppercase tracking-widest mb-4 font-mono">
                         <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
                         Homenageada CLIOC
                     </span>
-                    
-                    <h1 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">Selma Quintella Soares</h1>
-                    <p class="text-xs sm:text-base text-gray-300 font-semibold tracking-wide uppercase font-outfit mt-0.5">Técnica em Parasitologia</p>
-                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1">Coleção de Leishmania do IOC (CLIOC)</p>
+
+                    <h1 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">Selma
+                        Quintella Soares</h1>
+                    <p
+                        class="text-xs sm:text-base text-gray-300 font-semibold tracking-wide uppercase font-outfit mt-0.5">
+                        Técnica em Parasitologia</p>
+                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1">Coleção de Leishmania do IOC
+                        (CLIOC)</p>
                     <div class="w-16 h-1 bg-gradient-to-r from-fuchsia-600 to-pink-850 rounded mt-3"></div>
-                    
+
                     <!-- Career Timeline Summary -->
-                    <div class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start">
+                    <div
+                        class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start">
                         <div>
-                            <span class="block text-gray-400 uppercase text-[8px] tracking-wider">Período de atuação</span>
+                            <span class="block text-gray-400 uppercase text-[8px] tracking-wider">Período de
+                                atuação</span>
                             <span class="text-xs font-semibold">1987–atual</span>
                         </div>
                         <div class="w-px bg-white/10"></div>
@@ -111,37 +145,53 @@
                             <span class="text-xs font-semibold">Fiocruz / IOC</span>
                         </div>
                     </div>
-                    
+
                     <!-- Quote of researcher -->
-                    <p class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 border-fuchsia-500 pl-3.5 leading-relaxed font-light">
-                        “Costumamos premiar e homenagear grandes descobertas, mas, muitas vezes, não nos lembramos de que, ao lado de quem realizou estes feitos, sempre havia muitas pessoas trabalhando, dedicada e silenciosamente.”
+                    <p
+                        class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 border-fuchsia-500 pl-3.5 leading-relaxed font-light">
+                        “Costumamos premiar e homenagear grandes descobertas, mas, muitas vezes, não nos lembramos de
+                        que, ao lado de quem realizou estes feitos, sempre havia muitas pessoas trabalhando, dedicada e
+                        silenciosamente.”
                     </p>
                 </div>
-                
+
             </div>
         </div>
     </section>
 
     <!-- Audio Guide (Accessible audio player bar - Static + Sticky Bottom on Mobile) -->
-    <div id="audio-container" class="bg-gradient-to-r from-fuchsia-600 to-pink-850 text-white py-3 shadow-inner relative z-30">
+    <div id="audio-container"
+        class="bg-gradient-to-r from-fuchsia-600 to-pink-850 text-white py-3 shadow-inner relative z-30">
         <div class="max-w-6xl mx-auto px-4 flex items-center justify-between gap-4">
             <div class="flex items-center gap-2.5">
                 <div class="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center flex-shrink-0">
-                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z">
+                        </path>
+                    </svg>
                 </div>
                 <div class="overflow-hidden">
-                    <span class="text-[9px] font-semibold uppercase tracking-wider block opacity-70 leading-none">Áudio Guia Acessível</span>
+                    <span class="text-[9px] font-semibold uppercase tracking-wider block opacity-70 leading-none">Áudio
+                        Guia Acessível</span>
                     <span class="text-xs font-bold block truncate mt-0.5">Ouça a trajetória da cientista</span>
                 </div>
             </div>
-            
+
             <div class="flex items-center gap-2">
-                <button onclick="startAudio()" id="play-btn" class="flex items-center gap-1.5 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-slate-100 active:scale-95 shadow-md min-h-[36px] transition-all">
-                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                <button onclick="startAudio()" id="play-btn"
+                    class="flex items-center gap-1.5 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-slate-100 active:scale-95 shadow-md min-h-[36px] transition-all">
+                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"></path>
+                    </svg>
                     Ouvir
                 </button>
-                <button onclick="stopAudio()" id="stop-btn" class="hidden flex items-center gap-1.5 bg-black/40 text-white text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-black/60 active:scale-95 min-h-[36px] transition-all">
-                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
+                <button onclick="stopAudio()" id="stop-btn"
+                    class="hidden flex items-center gap-1.5 bg-black/40 text-white text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-black/60 active:scale-95 min-h-[36px] transition-all">
+                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+                    </svg>
                     Pausar
                 </button>
             </div>
@@ -150,59 +200,86 @@
 
     <!-- Main Stacked Content Layout (No Tabs - Fluid Vertical Read) -->
     <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow">
-        
+
         <!-- Stack of sections -->
         <div class="flex flex-col gap-6">
-            
+
             <!-- Section 1: Biografia -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+            <div
+                class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3
+                    class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
                     <span class="w-1.5 h-4 bg-gradient-to-b from-fuchsia-600 to-pink-850 rounded-full mr-2"></span>
                     1. Quem foi?
                 </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Selma Quintella Soares é técnica do Laboratório de Pesquisa em Leishmanioses (LPL) do IOC/Fiocruz, que abriga a Coleção de Leishmania (CLIOC). Ingressou em 1987 e acompanhou de perto a criação, crescimento e consolidação da coleção, prestando serviços essenciais por quase 40 anos ininterruptos.</p>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Selma Quintella Soares é técnica
+                    do Laboratório de Pesquisa em Leishmanioses (LPL) do IOC/Fiocruz, que abriga a Coleção de Leishmania
+                    (CLIOC). Ingressou em 1987 e acompanhou de perto a criação, crescimento e consolidação da coleção,
+                    prestando serviços essenciais por quase 40 anos ininterruptos.</p>
             </div>
 
             <!-- Section 2: Contribuição -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+            <div
+                class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3
+                    class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
                     <span class="w-1.5 h-4 bg-gradient-to-b from-fuchsia-600 to-pink-850 rounded-full mr-2"></span>
                     2. Sua contribuição para as coleções biológicas
                 </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Atua na base operacional e técnica de todos os trabalhos desenvolvidos na CLIOC. Participa na elaboração e revisão de protocolos técnicos, realiza a preparação minuciosa de meios de cultivo, reagentes e soluções comuns, além de zelar pela segurança biológica e organização dos espaços laboratoriais.</p>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Atua na base operacional e
+                    técnica de todos os trabalhos desenvolvidos na CLIOC. Participa na elaboração e revisão de
+                    protocolos técnicos, realiza a preparação minuciosa de meios de cultivo, reagentes e soluções
+                    comuns, além de zelar pela segurança biológica e organização dos espaços laboratoriais.</p>
             </div>
 
             <!-- Section 3: Importância -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+            <div
+                class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3
+                    class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
                     <span class="w-1.5 h-4 bg-gradient-to-b from-fuchsia-600 to-pink-850 rounded-full mr-2"></span>
                     3. Por que sua trajetória é importante?
                 </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">A homenagem à Selma representa a valorização fundamental do papel das técnicas e técnicos de laboratório, frequentemente invisibilizados no fazer científico. Seu zelo técnico e sua dedicação diária mantêm a viabilidade das cepas vivas de Leishmania e garantem a integridade da pesquisa científica e das cooperações nacionais e internacionais.</p>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">A homenagem à Selma representa a
+                    valorização fundamental do papel das técnicas e técnicos de laboratório, frequentemente
+                    invisibilizados no fazer científico. Seu zelo técnico e sua dedicação diária mantêm a viabilidade
+                    das cepas vivas de Leishmania e garantem a integridade da pesquisa científica e das cooperações
+                    nacionais e internacionais.</p>
             </div>
 
             <!-- Section 4: Legado/Curiosidades -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+            <div
+                class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3
+                    class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
                     <span class="w-1.5 h-4 bg-gradient-to-b from-fuchsia-600 to-pink-850 rounded-full mr-2"></span>
                     4. Curiosidades ou legado
                 </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Cresceu vivendo a história da Fiocruz de forma muito próxima, pois quando criança acompanhava seu pai, Rui Quintella, pelo campus de Manguinhos. Além do rigor técnico metódico no trabalho, Selma é conhecida por dominar 'protocolos culinários' herdados de sua família, trazendo alegria e união para a equipe do laboratório.</p>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Cresceu vivendo a história da
+                    Fiocruz de forma muito próxima, pois quando criança acompanhava seu pai, Rui Quintella, pelo campus
+                    de Manguinhos. Além do rigor técnico metódico no trabalho, Selma é conhecida por dominar 'protocolos
+                    culinários' herdados de sua família, trazendo alegria e união para a equipe do laboratório.</p>
             </div>
-            
+
         </div>
 
-        
 
-        
+
+
 
         <!-- Inspiring Message Card -->
-        <div class="mt-8 bg-gradient-to-br from-fuchsia-600 to-pink-850 rounded-2xl p-6 sm:p-10 text-white relative overflow-hidden shadow-md">
-            <div class="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div
+            class="mt-8 bg-gradient-to-br from-fuchsia-600 to-pink-850 rounded-2xl p-6 sm:p-10 text-white relative overflow-hidden shadow-md">
+            <div
+                class="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]">
+            </div>
             <div class="relative z-10">
-                <span class="text-[9px] font-mono font-bold tracking-widest text-white/80 uppercase block mb-3">Mensagem Inspiradora ao Visitante</span>
+                <span class="text-[9px] font-mono font-bold tracking-widest text-white/80 uppercase block mb-3">Mensagem
+                    Inspiradora ao Visitante</span>
                 <p class="font-outfit text-sm sm:text-lg italic leading-relaxed font-light">
-                    “Um trabalho exitoso, raramente, inclui apenas uma única mente pensante e duas mãos. O fazer científico constrói-se melhor coletivamente e de forma compartilhada. A ciência está repleta de mulheres imensas, intensas, persistentes e resilientes, para nos inspirar.”
+                    “Um trabalho exitoso, raramente, inclui apenas uma única mente pensante e duas mãos. O fazer
+                    científico constrói-se melhor coletivamente e de forma compartilhada. A ciência está repleta de
+                    mulheres imensas, intensas, persistentes e resilientes, para nos inspirar.”
                 </p>
                 <div class="mt-4 flex items-center gap-2.5 text-[10px] font-semibold text-white/80">
                     <span class="w-4 h-[1px] bg-white/40"></span>
@@ -215,15 +292,21 @@
 
     <!-- Navigation Hub (Touch target size min-height 44px) -->
     <section class="max-w-4xl mx-auto px-4 pb-12 text-center">
-        <a href="../index.html" class="inline-flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-xl hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow active:scale-95 min-h-[44px]">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+        <a href="../index.html"
+            class="inline-flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-xl hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow active:scale-95 min-h-[44px]">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                </path>
+            </svg>
             Outras Homenageadas
         </a>
     </section>
 
     <!-- Footer -->
     <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900">
-        <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
+        <div
+            class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
             <div class="text-center sm:text-left">
                 <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
                 <span class="block mt-0.5">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
@@ -258,7 +341,7 @@
             const textToSpeak = "Homenagem da Coleção CLIOC. Selma Quintella Soares. Selma Quintella Soares é técnica do Laboratório de Pesquisa em Leishmanioses (LPL) do IOC/Fiocruz, que abriga a Coleção de Leishmania (CLIOC). Ingressou em 1987 e acompanhou de perto a criação, crescimento e consolidação da coleção, prestando serviços essenciais por quase 40 anos ininterruptos. Atua na base operacional e técnica de todos os trabalhos desenvolvidos na CLIOC. Participa na elaboração e revisão de protocolos técnicos, realiza a preparação minuciosa de meios de cultivo, reagentes e soluções comuns, além de zelar pela segurança biológica e organização dos espaços laboratoriais. A homenagem à Selma representa a valorização fundamental do papel das técnicas e técnicos de laboratório, frequentemente invisibilizados no fazer científico. Seu zelo técnico e sua dedicação diária mantêm a viabilidade das cepas vivas de Leishmania e garantem a integridade da pesquisa científica e das cooperações nacionais e internacionais. Cresceu vivendo a história da Fiocruz de forma muito próxima, pois quando criança acompanhava seu pai, Rui Quintella, pelo campus de Manguinhos. Além do rigor técnico metódico no trabalho, Selma é conhecida por dominar \'protocolos culinários\' herdados de sua família, trazendo alegria e união para a equipe do laboratório. Mensagem inspiradora: Um trabalho exitoso, raramente, inclui apenas uma única mente pensante e duas mãos. O fazer científico constrói-se melhor coletivamente e de forma compartilhada. A ciência está repleta de mulheres imensas, intensas, persistentes e resilientes, para nos inspirar.";
             speechUtterance = new SpeechSynthesisUtterance(textToSpeak);
             speechUtterance.lang = "pt-BR";
-            
+
             const voices = speechSynth.getVoices();
             const ptVoice = voices.find(v => v.lang.startsWith("pt"));
             if (ptVoice) {
@@ -301,10 +384,11 @@
                 speechSynth.cancel();
             }
         });
-        
+
         if (speechSynth && speechSynth.onvoiceschanged !== undefined) {
-            speechSynth.onvoiceschanged = () => {};
+            speechSynth.onvoiceschanged = () => { };
         }
     </script>
 </body>
+
 </html>
