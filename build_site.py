@@ -22,7 +22,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-emerald-600 to-teal-800",
             "accent_text": "text-emerald-600",
-            "accent_bg": "bg-emerald-100",
+            "accent_bg": "bg-emerald-50",
             "accent_border": "border-emerald-500",
             "btn_bg": "bg-emerald-600 hover:bg-emerald-700",
             "shadow": "shadow-emerald-100",
@@ -47,7 +47,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-indigo-600 to-purple-800",
             "accent_text": "text-indigo-600",
-            "accent_bg": "bg-indigo-100",
+            "accent_bg": "bg-indigo-50",
             "accent_border": "border-indigo-500",
             "btn_bg": "bg-indigo-600 hover:bg-indigo-700",
             "shadow": "shadow-indigo-100",
@@ -72,7 +72,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-rose-600 to-pink-800",
             "accent_text": "text-rose-600",
-            "accent_bg": "bg-rose-100",
+            "accent_bg": "bg-rose-50",
             "accent_border": "border-rose-500",
             "btn_bg": "bg-rose-600 hover:bg-rose-700",
             "shadow": "shadow-rose-100",
@@ -84,7 +84,7 @@ collections_data = {
         "acronym": "CCULI",
         "collection_name": "Coleção de Culicidae",
         "category": "Zoologia (Insetos)",
-        "is_dual": True, # Custom flag to handle Teresa & Monique layout!
+        "is_dual": True,
         "researchers": [
             {
                 "name": "Dra. Teresa Fernandes Silva do Nascimento",
@@ -118,7 +118,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-purple-600 to-indigo-800",
             "accent_text": "text-purple-600",
-            "accent_bg": "bg-purple-100",
+            "accent_bg": "bg-purple-50",
             "accent_border": "border-purple-500",
             "btn_bg": "bg-purple-600 hover:bg-purple-700",
             "shadow": "shadow-purple-100",
@@ -143,7 +143,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-blue-600 to-indigo-800",
             "accent_text": "text-blue-600",
-            "accent_bg": "bg-blue-100",
+            "accent_bg": "bg-blue-50",
             "accent_border": "border-blue-500",
             "btn_bg": "bg-blue-600 hover:bg-blue-700",
             "shadow": "shadow-blue-100",
@@ -158,17 +158,17 @@ collections_data = {
         "researcher_name": "Marília Martins Nishikawa",
         "period": "1983–2020",
         "area": "Micologia, Microbiologia e Coleções de Microrganismos",
-        "quote": "Sem o esforço da busca é impossível a alegria do encontro.",
+        "quote": "Sem o effort da busca é impossível a alegria do encontro.",
         "bio": "Dra. Marília Martins Nishikawa é biomédica, mestre em Biologia Celular e Molecular e doutora em Vigilância Sanitária pela Fiocruz. Atuou de 1983 a 2020 no Instituto Nacional de Controle de Qualidade em Saúde (INCQS/Fiocruz) como Tecnologista em Saúde Pública. Sua carreira foi inteiramente dedicada à micologia, com foco na caracterização, identificação e preservação de fungos de importância médica e sanitária.",
         "contribution": "Atuou na Coleção de Fungos do Ambiente e Saúde (Fiocruz/CFAS), desenvolvendo pesquisas sobre fungos de interesse médico e ambiental. Liderou a produção, manutenção e fornecimento de fungos de referência, cruciais para controle de qualidade laboratorial, vigilância em saúde e formação de recursos humanos no INCQS.",
         "importance": "Desde 1983 estabeleceu e fortaleceu a CFAS. Desenvolveu estudos pioneiros sobre diversidade genética, epidemiologia e sensibilidade a antifúngicos de fungos patogênicos no Brasil, em especial do gênero Cryptococcus. Atuou fortemente na integração entre as coleções biológicas, pesquisa aplicada e vigilância sanitária.",
-        "curiosity": "Seu doutorado foi desenvolvido a partir de fungos preservados na própria CFAS e na Coleção de Fungos Patogênicos (CFP), demonstrando como as coleções são laboratórios vivos para novos conhecimentos. Ministrou inúmeros cursos práticos sobre preservação microbiológica, fortalecendo redes nacionais de laboratórios.",
+        "curiosity": "Seu doutorado foi desenvolvido a partir de fungos preservados na própria CFAS e na Coleção de Fungos Patogênicos (CFP), demonstrando como as coleções são verdadeiros laboratórios vivos. Ministrou inúmeros cursos práticos sobre preservação microbiológica, fortalecendo redes nacionais de laboratórios.",
         "message": "Sem o esforço da busca é impossível a alegria do encontro.",
         "image_path": "../assets/images/CFAS_image2.jpg",
         "theme": {
             "bg_gradient": "from-pink-600 to-rose-800",
             "accent_text": "text-pink-600",
-            "accent_bg": "bg-pink-100",
+            "accent_bg": "bg-pink-50",
             "accent_border": "border-pink-500",
             "btn_bg": "bg-pink-600 hover:bg-pink-700",
             "shadow": "shadow-pink-100",
@@ -193,7 +193,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-amber-600 to-orange-850",
             "accent_text": "text-amber-600",
-            "accent_bg": "bg-amber-100",
+            "accent_bg": "bg-amber-50",
             "accent_border": "border-amber-500",
             "btn_bg": "bg-amber-600 hover:bg-amber-700",
             "shadow": "shadow-amber-100",
@@ -218,7 +218,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-fuchsia-600 to-pink-850",
             "accent_text": "text-fuchsia-600",
-            "accent_bg": "bg-fuchsia-100",
+            "accent_bg": "bg-fuchsia-50",
             "accent_border": "border-fuchsia-500",
             "btn_bg": "bg-fuchsia-600 hover:bg-fuchsia-700",
             "shadow": "shadow-fuchsia-100",
@@ -243,7 +243,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-cyan-600 to-teal-800",
             "accent_text": "text-cyan-600",
-            "accent_bg": "bg-cyan-100",
+            "accent_bg": "bg-cyan-50",
             "accent_border": "border-cyan-500",
             "btn_bg": "bg-cyan-600 hover:bg-cyan-700",
             "shadow": "shadow-cyan-100",
@@ -266,9 +266,9 @@ collections_data = {
         "message": "Proteger o patrimônio histórico e ambiental de uma nação só é possível quando envolvemos, educamos e oferecemos oportunidades de desenvolvimento social e econômico às populações que vivem ao seu redor.",
         "image_path": "../assets/images/CPFERA_image1.jpeg",
         "theme": {
-            "bg_gradient": "from-amber-800 to-yellow-950",
+            "bg_gradient": "from-amber-850 to-yellow-950",
             "accent_text": "text-amber-800",
-            "accent_bg": "bg-amber-100",
+            "accent_bg": "bg-amber-50",
             "accent_border": "border-amber-700",
             "btn_bg": "bg-amber-800 hover:bg-amber-900",
             "shadow": "shadow-amber-200",
@@ -295,7 +295,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-orange-600 to-red-800",
             "accent_text": "text-orange-600",
-            "accent_bg": "bg-orange-100",
+            "accent_bg": "bg-orange-50",
             "accent_border": "border-orange-500",
             "btn_bg": "bg-orange-600 hover:bg-orange-700",
             "shadow": "shadow-orange-100",
@@ -323,7 +323,7 @@ collections_data = {
         "theme": {
             "bg_gradient": "from-red-600 to-rose-900",
             "accent_text": "text-rose-700",
-            "accent_bg": "bg-red-100",
+            "accent_bg": "bg-red-50",
             "accent_border": "border-red-500",
             "btn_bg": "bg-red-600 hover:bg-red-700",
             "shadow": "shadow-red-100",
@@ -335,55 +335,47 @@ collections_data = {
 
 # 1. GENERATE MAIN HOME PORTAL (index.html)
 def generate_home_page():
-    # Category list and filters
     categories = sorted(list(set(col["category"] for col in collections_data.values())))
     
-    # HTML Cards Generation
     cards_html = ""
     for acronym, col in collections_data.items():
-        # Handle card photo: if dual, show first
         img_src = col["image_path"]
         
         cards_html += f"""
         <!-- Card for {acronym} -->
-        <div class="collection-card group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 flex flex-col h-full" data-category="{col['category']}">
-            <div class="relative overflow-hidden aspect-video bg-gradient-to-br {col['theme']['bg_gradient']} flex items-center justify-center p-4">
-                <!-- Decorative pattern -->
+        <div class="collection-card group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-150 transition-all duration-300 flex flex-col h-full" data-category="{col['category']}">
+            <div class="relative overflow-hidden aspect-video bg-gradient-to-br {col['theme']['bg_gradient']} flex items-center justify-center p-3">
                 <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-                <!-- Portal image -->
-                <img src="{img_src}" alt="{col['researcher_name']}" class="h-full w-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-700 ease-out shadow-lg shadow-black/20" />
+                <img src="{img_src}" alt="{col['researcher_name']}" class="h-full w-full object-cover rounded-lg group-hover:scale-103 transition-transform duration-500 shadow-md" />
                 
-                <!-- Category Badge -->
-                <span class="absolute top-4 left-4 bg-white/95 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-gray-800 shadow-sm border border-gray-200/50 uppercase tracking-wider">{col['category']}</span>
-                <!-- Acronym Badge -->
-                <span class="absolute bottom-4 right-4 bg-black/60 backdrop-blur-sm text-xs font-mono font-bold px-2 py-1 rounded text-white tracking-widest">{acronym}</span>
+                <span class="absolute top-3 left-3 bg-white/95 backdrop-blur text-[10px] font-bold px-2 py-0.5 rounded-full text-gray-800 shadow-sm uppercase tracking-wider">{col['category']}</span>
+                <span class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-[10px] font-mono font-bold px-2 py-0.5 rounded text-white tracking-widest">{acronym}</span>
             </div>
             
-            <div class="p-6 flex flex-col flex-grow">
-                <h3 class="text-xl font-bold text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-300 line-clamp-1">{col['researcher_name']}</h3>
-                <p class="text-xs font-semibold text-gray-400 mt-1 uppercase tracking-wider">{col['collection_name']}</p>
+            <div class="p-5 flex flex-col flex-grow">
+                <h3 class="text-lg font-bold text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200 line-clamp-1">{col['researcher_name']}</h3>
+                <p class="text-[11px] font-bold text-gray-400 mt-0.5 uppercase tracking-wider">{col['collection_name']}</p>
                 
-                <!-- Quote teaser -->
-                <p class="text-sm text-gray-600 italic mt-4 flex-grow line-clamp-3">“{col['quote']}”</p>
+                <p class="text-xs text-gray-600 italic mt-3 flex-grow line-clamp-3">“{col['quote']}”</p>
                 
-                <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
-                    <span class="text-xs font-medium text-gray-500 flex items-center">
-                        <svg class="w-4 h-4 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center justify-between">
+                    <span class="text-[11px] font-mono text-gray-500 flex items-center">
+                        <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         {col['period']}
                     </span>
-                    <a href="{acronym.lower()}/index.html" class="inline-flex items-center text-xs font-bold tracking-wider uppercase text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-300">
+                    <a href="{acronym.lower()}/index.html" class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200 min-h-[36px] px-2 rounded-lg hover:bg-gray-50">
                         Saber Mais 
-                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                        <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </a>
                 </div>
             </div>
         </div>
         """
         
-    category_buttons_html = '<button onclick="filterCategory(\'all\')" id="btn-all" class="cat-btn px-4 py-2 text-sm font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300">Todas</button>'
+    category_buttons_html = '<button onclick="filterCategory(\'all\')" id="btn-all" class="cat-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300">Todas</button>'
     for cat in categories:
         safe_cat = cat.replace(" ", "_")
-        category_buttons_html += f'\n<button onclick="filterCategory(\'{cat}\')" id="btn-{safe_cat}" class="cat-btn px-4 py-2 text-sm font-semibold rounded-full bg-white text-gray-700 border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm">{cat}</button>'
+        category_buttons_html += f'\n<button onclick="filterCategory(\'{cat}\')" id="btn-{safe_cat}" class="cat-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full bg-white text-gray-700 border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm">{cat}</button>'
 
     html_content = f"""<!DOCTYPE html>
 <html lang="pt-BR">
@@ -421,108 +413,103 @@ def generate_home_page():
     </script>
     <style>
         .font-outfit {{ font-family: 'Outfit', sans-serif; }}
-        /* Soft page transition */
         body {{
             opacity: 0;
-            transition: opacity 0.6s ease-in-out;
+            transition: opacity 0.4s ease-in-out;
         }}
         body.loaded {{
             opacity: 1;
         }}
     </style>
 </head>
-<body class="bg-slate-50 text-gray-900 font-sansLoaded min-h-screen flex flex-col antialiased loaded">
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded">
 
     <!-- Header Section -->
-    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div class="h-10 w-1 bg-fiocruz-blue rounded"></div>
+                <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
                 <div>
-                    <h1 class="font-outfit text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
-                    <p class="text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider">Coleções Biológicas & VPPCB</p>
+                    <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
+                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider">Coleções Biológicas & VPPCB</p>
                 </div>
             </div>
-            <div class="flex items-center gap-4">
-                <span class="hidden md:inline-flex items-center bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-xs font-semibold px-3 py-1 uppercase tracking-wider">SBPC 2026</span>
-                <a href="https://fiocruz.br/colecoes-biologicas" target="_blank" class="text-xs font-bold text-fiocruz-blue hover:underline">coleções.fiocruz.br</a>
+            <div class="flex items-center gap-3">
+                <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider">SBPC 2026</span>
+                <a href="https://fiocruz.br/colecoes-biologicas" target="_blank" class="hidden sm:inline text-xs font-bold text-fiocruz-blue hover:underline">coleções.fiocruz.br</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero / Intro -->
-    <section class="relative bg-fiocruz-dark text-white py-16 sm:py-24 overflow-hidden">
-        <!-- Decorative Glows -->
+    <!-- Hero / Intro (More compact for mobile) -->
+    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-20 overflow-hidden">
         <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
         <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl"></div>
         
         <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
-            <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-xs font-bold px-4 py-1.5 uppercase tracking-widest mb-6 font-outfit">SBPC 2026 • UFF Niterói</span>
-            <h2 class="font-outfit text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-                Mulheres nas <br class="sm:hidden"><span class="bg-gradient-to-r from-blue-400 via-teal-400 to-fiocruz-gold bg-clip-text text-transparent">Coleções Biológicas</span>
+            <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-[10px] sm:text-xs font-bold px-3 py-1 uppercase tracking-widest mb-4 font-outfit">SBPC 2026 • UFF Niterói</span>
+            <h2 class="font-outfit text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
+                Mulheres nas <span class="bg-gradient-to-r from-blue-400 via-teal-400 to-fiocruz-gold bg-clip-text text-transparent">Coleções Biológicas</span>
             </h2>
-            <p class="text-lg sm:text-xl text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
-                Por trás de cada acervo científico existem trajetórias extraordinárias de dedicação, pioneirismo e coragem de mulheres cientistas que moldaram a saúde pública no Brasil.
+            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2">
+                Descubra as trajetórias inspiradoras de mulheres cientistas que preservaram a biodiversidade e fortaleceram a saúde pública no Brasil.
             </p>
-            <div class="mt-8 flex justify-center gap-4 text-xs text-gray-400 font-mono">
-                <span>COORDENAÇÃO: VPPCB</span>
-                <span>•</span>
-                <span>HOMENAGEM EXCLUSIVA</span>
-            </div>
         </div>
     </section>
 
     <!-- Search & Filter Controls -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-20">
-        <div class="bg-white rounded-2xl shadow-xl border border-gray-100 p-6 sm:p-8">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-8 relative z-20">
+        <div class="bg-white rounded-2xl shadow-lg border border-gray-150 p-5 sm:p-7">
+            <div class="flex flex-col gap-4">
                 <!-- Search bar -->
-                <div class="relative flex-grow max-w-lg">
-                    <input type="text" id="search-input" onkeyup="searchResearchers()" placeholder="Buscar pesquisadora, sigla ou área de pesquisa..." class="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white transition-all text-sm shadow-inner" />
-                    <svg class="w-5 h-5 text-gray-400 absolute left-4 top-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <div class="relative w-full">
+                    <input type="text" id="search-input" onkeyup="searchResearchers()" placeholder="Buscar por pesquisadora, coleção ou área..." class="w-full pl-11 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white transition-all text-sm" />
+                    <svg class="w-4 h-4 text-gray-400 absolute left-4 top-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
                 
-                <!-- Category Filter Pills -->
-                <div class="flex flex-wrap gap-2 items-center">
-                    <span class="text-xs font-bold text-gray-400 uppercase tracking-widest mr-2 block w-full sm:w-auto">Filtrar por Área:</span>
-                    {category_buttons_html}
+                <!-- Category Filter Pills (Scrollable horizontally on mobile) -->
+                <div class="flex flex-col gap-2">
+                    <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Filtrar por Área:</span>
+                    <div class="flex gap-2 overflow-x-auto pb-1 -mx-2 px-2 scrollbar-none snap-x snap-mandatory">
+                        {category_buttons_html}
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Main Grid Content -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex-grow">
-        <div id="no-results" class="hidden text-center py-20">
-            <svg class="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path></svg>
-            <h3 class="text-lg font-bold text-gray-900">Nenhuma pesquisadora encontrada</h3>
-            <p class="text-gray-500 text-sm mt-1">Tente ajustar seus termos de pesquisa ou filtros.</p>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow">
+        <div id="no-results" class="hidden text-center py-16">
+            <svg class="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path></svg>
+            <h3 class="text-base font-bold text-gray-900">Nenhuma pesquisadora encontrada</h3>
+            <p class="text-gray-500 text-xs mt-1">Tente ajustar seus termos de pesquisa ou filtros.</p>
         </div>
 
-        <div id="cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div id="cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {cards_html}
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div class="flex items-center gap-3">
-                    <div class="h-8 w-1 bg-fiocruz-gold rounded"></div>
+                    <div class="h-6 w-1 bg-fiocruz-gold rounded"></div>
                     <div>
-                        <span class="font-outfit text-md font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
-                        <span class="text-xs text-gray-400">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
+                        <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
+                        <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
                     </div>
                 </div>
-                <div class="flex gap-6 text-sm text-gray-400">
+                <div class="flex gap-4 text-xs text-gray-400">
                     <a href="https://fiocruz.br" target="_blank" class="hover:text-white transition-colors">Portal Fiocruz</a>
                     <a href="https://sbpc.uff.br/" target="_blank" class="hover:text-white transition-colors">SBPC 2026</a>
                 </div>
             </div>
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-xs text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="border-t border-gray-800 mt-6 pt-6 text-center text-[11px] text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-2">
                 <p>© 2026 Fundação Oswaldo Cruz. Desenvolvido para a SBPC 2026 (Niterói/UFF).</p>
-                <p class="italic text-gray-600">Reconhecendo trajetórias que inspiram o futuro da ciência.</p>
+                <p class="italic">Reconhecendo trajetórias que inspiram a ciência.</p>
             </div>
         </div>
     </footer>
@@ -538,16 +525,15 @@ def generate_home_page():
         function filterCategory(category) {{
             activeCategory = category;
             
-            // Highlight active button
             const buttons = document.querySelectorAll(".cat-btn");
             buttons.forEach(btn => {{
-                btn.className = "cat-btn px-4 py-2 text-sm font-semibold rounded-full bg-white text-gray-700 border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm";
+                btn.className = "cat-btn px-4 py-2 text-xs font-semibold rounded-full bg-white text-gray-700 border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm snap-start";
             }});
             
             const activeId = category === "all" ? "btn-all" : "btn-" + category.replace(/ /g, "_");
             const activeBtn = document.getElementById(activeId);
             if (activeBtn) {{
-                activeBtn.className = "cat-btn px-4 py-2 text-sm font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300";
+                activeBtn.className = "cat-btn px-4 py-2 text-xs font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300 snap-start";
             }}
             
             runFiltering();
@@ -591,33 +577,29 @@ def generate_home_page():
     
     with open(os.path.join(workspace_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(html_content)
-    print("Generated home portal (index.html)")
+    print("Generated responsive home portal (index.html)")
 
 # 2. GENERATE INDIVIDUAL BIO PAGES
 def generate_individual_pages():
     for acronym, col in collections_data.items():
-        # Create subdir
         sub_path = os.path.join(workspace_dir, acronym.lower())
         os.makedirs(sub_path, exist_ok=True)
         
-        # Audio Guide Voice Text setup
         audio_guide_text = f"Homenagem da Coleção {acronym}. {col['researcher_name']}. {col['bio']} {col['contribution']} {col['importance']} {col['curiosity']} Mensagem inspiradora: {col['message']}"
-        # Escape quotes for JS
         audio_guide_text_escaped = audio_guide_text.replace("'", "\\'").replace('"', '\\"').replace("\n", " ")
         
-        # Build Videos section HTML
+        # Build Videos section HTML (More compact)
         videos_html = ""
         if col["videos"]:
             videos_html += """
-            <div class="mt-8 border-t border-gray-100 pt-8">
+            <div class="mt-10 border-t border-gray-150 pt-8">
                 <h3 class="font-outfit text-lg font-bold text-gray-900 mb-4 flex items-center">
                     <svg class="w-5 h-5 mr-2 text-red-600" fill="currentColor" viewBox="0 0 24 24"><path d="M23 12a11 11 0 11-22 0 11 11 0 0122 0zm-13.5 5.5l7.5-5.5-7.5-5.5v11z"></path></svg>
                     Vídeos e Conteúdos Relacionados
                 </h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             """
             for vid in col["videos"]:
-                # Convert youtu.be or watch?v= to embed link if possible for embedding, or just beautiful buttons
                 embed_url = vid["url"]
                 if "youtu.be/" in embed_url:
                     vid_id = embed_url.split("youtu.be/")[1].split("?")[0]
@@ -628,24 +610,24 @@ def generate_individual_pages():
                 
                 if "youtube.com/embed" in embed_url:
                     videos_html += f"""
-                    <div class="flex flex-col bg-gray-50 border border-gray-150 rounded-xl overflow-hidden shadow-sm">
+                    <div class="flex flex-col bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
                         <div class="aspect-video w-full">
                             <iframe class="w-full h-full" src="{embed_url}" title="{vid['title']}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="p-3">
+                        <div class="p-3 bg-white">
                             <span class="text-xs font-semibold text-gray-800 line-clamp-1">{vid['title']}</span>
                         </div>
                     </div>
                     """
                 else:
                     videos_html += f"""
-                    <a href="{vid['url']}" target="_blank" class="flex items-center p-4 bg-gray-50 border border-gray-200 rounded-xl hover:bg-gray-100 transition-colors shadow-sm gap-3 group">
-                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    <a href="{vid['url']}" target="_blank" class="flex items-center p-3.5 bg-white border border-gray-200 rounded-2xl hover:bg-gray-50 transition-colors shadow-sm gap-3 group min-h-[64px]">
+                        <div class="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 flex-shrink-0">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                         </div>
-                        <div>
-                            <span class="text-sm font-semibold text-gray-800 block leading-tight">{vid['title']}</span>
-                            <span class="text-xs text-gray-400 mt-1 block">Acessar conteúdo externo</span>
+                        <div class="overflow-hidden">
+                            <span class="text-xs sm:text-sm font-semibold text-gray-800 block leading-tight truncate group-hover:underline">{vid['title']}</span>
+                            <span class="text-[10px] text-gray-400 mt-0.5 block">Acessar no YouTube</span>
                         </div>
                     </a>
                     """
@@ -656,59 +638,58 @@ def generate_individual_pages():
         portrait_card_html = ""
         
         if col.get("is_dual"):
-            # CCULI has two researchers: Teresa and Monique
             r1, r2 = col["researchers"][0], col["researchers"][1]
             portrait_card_html = f"""
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-start">
-                <div class="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center text-center shadow-lg backdrop-blur-sm">
-                    <img src="{r1['image_path']}" alt="{r1['name']}" class="w-40 h-52 object-cover rounded-xl border-2 border-white/20 shadow-md mb-4 hover:scale-105 transition-transform" />
-                    <h4 class="font-outfit text-md font-bold text-white">{r1['name']}</h4>
-                    <p class="text-xs text-purple-200 mt-1 uppercase tracking-wider">{r1['area']}</p>
-                    <span class="text-xs font-mono text-purple-300 mt-1">{r1['period']}</span>
+            <div class="grid grid-cols-2 gap-4 items-center">
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-3 flex flex-col items-center text-center shadow-lg backdrop-blur-sm">
+                    <img src="{r1['image_path']}" alt="{r1['name']}" class="w-full max-w-[120px] aspect-[3/4] object-cover rounded-xl border border-white/20 shadow-md mb-3 hover:scale-103 transition-transform" />
+                    <h4 class="font-outfit text-xs font-bold text-white line-clamp-1">{r1['name']}</h4>
+                    <p class="text-[9px] text-purple-200 mt-0.5 uppercase tracking-wider leading-tight">{r1['area']}</p>
+                    <span class="text-[9px] font-mono text-purple-300 mt-0.5">{r1['period']}</span>
                 </div>
-                <div class="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center text-center shadow-lg backdrop-blur-sm">
-                    <img src="{r2['image_path']}" alt="{r2['name']}" class="w-40 h-52 object-cover rounded-xl border-2 border-white/20 shadow-md mb-4 hover:scale-105 transition-transform" />
-                    <h4 class="font-outfit text-md font-bold text-white">{r2['name']}</h4>
-                    <p class="text-xs text-purple-200 mt-1 uppercase tracking-wider">{r2['area']}</p>
-                    <span class="text-xs font-mono text-purple-300 mt-1">{r2['period']}</span>
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-3 flex flex-col items-center text-center shadow-lg backdrop-blur-sm">
+                    <img src="{r2['image_path']}" alt="{r2['name']}" class="w-full max-w-[120px] aspect-[3/4] object-cover rounded-xl border border-white/20 shadow-md mb-3 hover:scale-103 transition-transform" />
+                    <h4 class="font-outfit text-xs font-bold text-white line-clamp-1">{r2['name']}</h4>
+                    <p class="text-[9px] text-purple-200 mt-0.5 uppercase tracking-wider leading-tight">{r2['area']}</p>
+                    <span class="text-[9px] font-mono text-purple-300 mt-0.5">{r2['period']}</span>
                 </div>
             </div>
             """
             dual_researcher_html = f"""
             <!-- Dual Researcher Profile Sections -->
-            <div class="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-gray-150 shadow-md">
-                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-4 mb-6 flex items-center">
-                    <svg class="w-5 h-5 mr-2 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+            <div class="mt-8 bg-white rounded-3xl p-5 sm:p-8 border border-gray-150 shadow-md">
+                <h3 class="font-outfit text-lg font-bold text-gray-900 border-b border-gray-100 pb-3 mb-5 flex items-center">
+                    <svg class="w-4 h-4 mr-2 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                     Destaque Biográfico: Dras. Teresa & Monique
                 </h3>
                 
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 divide-y lg:divide-y-0 lg:divide-x divide-gray-100">
+                <div class="flex flex-col gap-8 divide-y divide-gray-100">
                     <!-- Teresa Fernandes -->
-                    <div class="flex flex-col gap-4 pb-6 lg:pb-0">
+                    <div class="flex flex-col gap-3 pb-3">
                         <div class="flex items-center gap-3">
-                            <img src="{r1['image_path']}" alt="{r1['name']}" class="w-12 h-16 object-cover rounded shadow border border-gray-200" />
+                            <img src="{r1['image_path']}" alt="{r1['name']}" class="w-12 h-16 object-cover rounded shadow border border-gray-250" />
                             <div>
                                 <h4 class="font-bold text-gray-900 leading-tight">{r1['name']}</h4>
                                 <span class="text-xs text-purple-600 font-semibold">{r1['period']}</span>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Quem é:</strong> {r1['bio']}</p>
-                        <p class="text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Contribuição nas Coleções:</strong> {r1['contribution']}</p>
-                        <p class="text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Legado Científico:</strong> {r1['legacy']}</p>
+                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Quem é:</strong> {r1['bio']}</p>
+                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Contribuição nas Coleções:</strong> {r1['contribution']}</p>
+                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Legado Científico:</strong> {r1['legacy']}</p>
                     </div>
                     
                     <!-- Monique Motta -->
-                    <div class="flex flex-col gap-4 pt-6 lg:pt-0 lg:pl-8">
+                    <div class="flex flex-col gap-3 pt-6">
                         <div class="flex items-center gap-3">
-                            <img src="{r2['image_path']}" alt="{r2['name']}" class="w-12 h-16 object-cover rounded shadow border border-gray-200" />
+                            <img src="{r2['image_path']}" alt="{r2['name']}" class="w-12 h-16 object-cover rounded shadow border border-gray-250" />
                             <div>
                                 <h4 class="font-bold text-gray-900 leading-tight">{r2['name']}</h4>
                                 <span class="text-xs text-purple-600 font-semibold">{r2['period']}</span>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Quem é:</strong> {r2['bio']}</p>
-                        <p class="text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Contribuição nas Coleções:</strong> {r2['contribution']}</p>
-                        <p class="text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Legado Científico:</strong> {r2['legacy']}</p>
+                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Quem é:</strong> {r2['bio']}</p>
+                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Contribuição nas Coleções:</strong> {r2['contribution']}</p>
+                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Legado Científico:</strong> {r2['legacy']}</p>
                     </div>
                 </div>
             </div>
@@ -716,11 +697,10 @@ def generate_individual_pages():
         else:
             # Single portrait layout
             portrait_card_html = f"""
-            <div class="relative max-w-sm mx-auto aspect-[3/4] bg-white/5 border border-white/10 rounded-3xl p-4 shadow-2xl backdrop-blur-sm group overflow-hidden">
+            <div class="relative w-full max-w-[280px] mx-auto aspect-[3/4] bg-white/5 border border-white/10 rounded-2xl p-3 shadow-xl backdrop-blur-sm overflow-hidden">
                 <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-                <!-- Frame effect -->
-                <div class="w-full h-full border border-white/20 rounded-2xl overflow-hidden relative">
-                    <img src="{col['image_path']}" alt="{col['researcher_name']}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+                <div class="w-full h-full border border-white/20 rounded-xl overflow-hidden relative">
+                    <img src="{col['image_path']}" alt="{col['researcher_name']}" class="w-full h-full object-cover rounded-lg" />
                 </div>
             </div>
             """
@@ -762,23 +742,31 @@ def generate_individual_pages():
         .font-outfit {{ font-family: 'Outfit', sans-serif; }}
         body {{
             opacity: 0;
-            transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.4s ease-in-out;
         }}
         body.loaded {{
             opacity: 1;
         }}
+        /* Audio Player Bar animation */
+        .audio-bar-in {{
+            animation: slideUp 0.3s ease-out forwards;
+        }}
+        @keyframes slideUp {{
+            from {{ transform: translateY(100%); }}
+            to {{ transform: translateY(0); }}
+        }}
     </style>
 </head>
-<body class="bg-slate-50 text-gray-900 font-sansLoaded min-h-screen flex flex-col antialiased loaded">
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded">
 
-    <!-- Top Header Banner -->
-    <header class="bg-white/90 backdrop-blur border-b border-gray-150 sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-            <a href="../index.html" class="inline-flex items-center gap-2 text-xs font-bold text-gray-600 hover:text-gray-900 transition-colors uppercase tracking-wider">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+    <!-- Top Header Banner (Mobile-ready, large tap targets) -->
+    <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
+            <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
                 Portal SBPC
             </a>
-            <div class="flex items-center gap-4 text-xs font-semibold text-gray-400 font-mono tracking-widest uppercase">
+            <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
                 <span>{acronym}</span>
                 <span>|</span>
                 <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
@@ -786,47 +774,46 @@ def generate_individual_pages():
         </div>
     </header>
 
-    <!-- Researcher Hero Section -->
-    <section class="bg-fiocruz-dark text-white py-12 sm:py-20 relative overflow-hidden">
-        <!-- Background decorative vectors -->
-        <div class="absolute -top-48 -right-48 w-[400px] h-[400px] rounded-full bg-gradient-to-br {col['theme']['bg_gradient']} opacity-20 blur-3xl"></div>
+    <!-- Researcher Hero Section (Mobile-first Layout) -->
+    <section class="bg-fiocruz-dark text-white py-10 sm:py-16 relative overflow-hidden">
+        <div class="absolute -top-48 -right-48 w-96 h-96 rounded-full bg-gradient-to-br {col['theme']['bg_gradient']} opacity-15 blur-3xl"></div>
         <div class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
         
         <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
                 
                 <!-- Portrait / Illustration -->
-                <div class="lg:col-span-5 order-first lg:order-last">
+                <div class="w-full lg:w-1/3 flex-shrink-0 flex justify-center">
                     {portrait_card_html}
                 </div>
                 
                 <!-- Quick facts & Name -->
-                <div class="lg:col-span-7 flex flex-col">
-                    <span class="inline-flex items-center gap-1.5 self-start px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-white border border-white/10 uppercase tracking-widest mb-6 font-mono">
-                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <div class="w-full lg:w-2/3 flex flex-col">
+                    <span class="inline-flex items-center gap-1.5 self-start px-2.5 py-0.5 rounded-full text-[9px] font-bold bg-white/10 text-white border border-white/10 uppercase tracking-widest mb-4 font-mono">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
                         Homenageada {acronym}
                     </span>
                     
-                    <h1 class="font-outfit text-4xl sm:text-5xl font-extrabold tracking-tight mb-2 leading-none">{col['researcher_name']}</h1>
-                    <p class="text-md sm:text-lg text-gray-300 font-medium tracking-wide uppercase font-outfit mt-1">{col['area']}</p>
-                    <p class="text-xs text-gray-400 font-mono tracking-widest mt-2">{col['collection_name']} ({acronym})</p>
-                    <div class="w-20 h-1 bg-gradient-to-r {col['theme']['bg_gradient']} rounded mt-4"></div>
+                    <h1 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">{col['researcher_name']}</h1>
+                    <p class="text-xs sm:text-base text-gray-300 font-semibold tracking-wide uppercase font-outfit mt-0.5">{col['area']}</p>
+                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1">{col['collection_name']} ({acronym})</p>
+                    <div class="w-16 h-1 bg-gradient-to-r {col['theme']['bg_gradient']} rounded mt-3"></div>
                     
                     <!-- Career Timeline Summary -->
-                    <div class="mt-6 flex flex-wrap gap-4 text-xs font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-4 self-start">
+                    <div class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start">
                         <div>
-                            <span class="block text-gray-400 uppercase text-[10px] tracking-wider">Período de atuação</span>
-                            <span class="text-sm font-semibold">{col['period']}</span>
+                            <span class="block text-gray-400 uppercase text-[8px] tracking-wider">Período de atuação</span>
+                            <span class="text-xs font-semibold">{col['period']}</span>
                         </div>
-                        <div class="w-px bg-white/10 hidden sm:block"></div>
+                        <div class="w-px bg-white/10"></div>
                         <div>
-                            <span class="block text-gray-400 uppercase text-[10px] tracking-wider">Instituição</span>
-                            <span class="text-sm font-semibold">Fiocruz / IOC</span>
+                            <span class="block text-gray-400 uppercase text-[8px] tracking-wider">Instituição</span>
+                            <span class="text-xs font-semibold">Fiocruz / IOC</span>
                         </div>
                     </div>
                     
                     <!-- Quote of researcher -->
-                    <p class="mt-8 text-md sm:text-lg italic text-gray-200 border-l-4 {col['theme']['accent_border']} pl-4 leading-relaxed font-light">
+                    <p class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 {col['theme']['accent_border']} pl-3.5 leading-relaxed font-light">
                         “{col['quote']}”
                     </p>
                 </div>
@@ -835,79 +822,72 @@ def generate_individual_pages():
         </div>
     </section>
 
-    <!-- Audio Guide (Audio Assistente) -->
-    <div class="bg-gradient-to-r {col['theme']['bg_gradient']} text-white py-4 shadow-inner">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center animate-pulse">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+    <!-- Audio Guide (Accessible audio player bar - Static + Sticky Bottom on Mobile) -->
+    <div id="audio-container" class="bg-gradient-to-r {col['theme']['bg_gradient']} text-white py-3 shadow-inner relative z-30">
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center flex-shrink-0">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                 </div>
-                <div>
-                    <span class="text-xs font-semibold uppercase tracking-wider block opacity-70">Áudio Guia Acessível</span>
-                    <span class="text-sm font-bold block">Ouça a trajetória da pesquisadora</span>
+                <div class="overflow-hidden">
+                    <span class="text-[9px] font-semibold uppercase tracking-wider block opacity-70 leading-none">Áudio Guia Acessível</span>
+                    <span class="text-xs font-bold block truncate mt-0.5">Ouça a trajetória da cientista</span>
                 </div>
             </div>
             
-            <!-- TTS Buttons -->
-            <div class="flex items-center gap-3">
-                <button onclick="startAudio()" id="play-btn" class="flex items-center gap-2 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full hover:bg-slate-100 active:scale-95 shadow-lg shadow-black/10 transition-all">
-                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-                    Ouvir Áudio
+            <div class="flex items-center gap-2">
+                <button onclick="startAudio()" id="play-btn" class="flex items-center gap-1.5 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-slate-100 active:scale-95 shadow-md min-h-[36px] transition-all">
+                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                    Ouvir
                 </button>
-                <button onclick="stopAudio()" id="stop-btn" class="hidden flex items-center gap-2 bg-black/40 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full hover:bg-black/60 active:scale-95 transition-all">
-                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
+                <button onclick="stopAudio()" id="stop-btn" class="hidden flex items-center gap-1.5 bg-black/40 text-white text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-black/60 active:scale-95 min-h-[36px] transition-all">
+                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
                     Pausar
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- Main Content Tabs -->
-    <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12 flex-grow">
+    <!-- Main Stacked Content Layout (No Tabs - Fluid Vertical Read) -->
+    <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow">
         
-        <!-- Tab buttons (Mobile responsive scrolling wrapper) -->
-        <div class="border-b border-gray-200 overflow-x-auto whitespace-nowrap scrollbar-none">
-            <div class="flex space-x-8 min-w-full pb-px justify-start sm:justify-center">
-                <button onclick="switchTab(0)" class="tab-btn py-4 border-b-2 {col['theme']['accent_border']} {col['theme']['accent_text']} font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
-                    1. Quem foi?
-                </button>
-                <button onclick="switchTab(1)" class="tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
-                    2. Contribuição
-                </button>
-                <button onclick="switchTab(2)" class="tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
-                    3. Importância
-                </button>
-                <button onclick="switchTab(3)" class="tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300">
-                    4. Legado
-                </button>
-            </div>
-        </div>
-
-        <!-- Tab content panels -->
-        <div class="mt-8 bg-white border border-gray-150 rounded-3xl p-6 sm:p-10 shadow-md min-h-[300px]">
+        <!-- Stack of sections -->
+        <div class="flex flex-col gap-6">
             
-            <!-- Panel 0: Quem foi -->
-            <div class="tab-panel space-y-6 block">
-                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Biografia de Homenagem</h3>
-                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">{col['bio']}</p>
+            <!-- Section 1: Biografia -->
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                    1. Quem foi?
+                </h3>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['bio']}</p>
             </div>
 
-            <!-- Panel 1: Contribuição -->
-            <div class="tab-panel space-y-6 hidden">
-                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Contribuição para as Coleções Biológicas</h3>
-                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">{col['contribution']}</p>
+            <!-- Section 2: Contribuição -->
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                    2. Sua contribuição para as coleções biológicas
+                </h3>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['contribution']}</p>
             </div>
 
-            <!-- Panel 2: Importância -->
-            <div class="tab-panel space-y-6 hidden">
-                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Por que sua trajetória é importante?</h3>
-                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">{col['importance']}</p>
+            <!-- Section 3: Importância -->
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                    3. Por que sua trajetória é importante?
+                </h3>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['importance']}</p>
             </div>
 
-            <!-- Panel 3: Legado / Curiosidades -->
-            <div class="tab-panel space-y-6 hidden">
-                <h3 class="font-outfit text-xl font-bold text-gray-900 border-b border-gray-100 pb-3">Curiosidades e Legado Histórico</h3>
-                <p class="text-md sm:text-lg text-gray-700 leading-relaxed font-light">{col['curiosity']}</p>
+            <!-- Section 4: Legado/Curiosidades -->
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                    4. Curiosidades ou legado
+                </h3>
+                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['curiosity']}</p>
             </div>
             
         </div>
@@ -916,71 +896,46 @@ def generate_individual_pages():
 
         {videos_html}
 
-        <!-- Inspiring card -->
-        <div class="mt-12 bg-gradient-to-r {col['theme']['bg_gradient']} rounded-3xl p-8 sm:p-12 text-white relative overflow-hidden shadow-lg">
+        <!-- Inspiring Message Card -->
+        <div class="mt-8 bg-gradient-to-br {col['theme']['bg_gradient']} rounded-2xl p-6 sm:p-10 text-white relative overflow-hidden shadow-md">
             <div class="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="max-w-3xl relative z-10">
-                <span class="text-xs font-mono font-bold tracking-widest text-white/70 uppercase block mb-4">Mensagem Inspiradora da Homenageada</span>
-                <p class="font-outfit text-lg sm:text-2xl italic leading-relaxed font-light">
+            <div class="relative z-10">
+                <span class="text-[9px] font-mono font-bold tracking-widest text-white/80 uppercase block mb-3">Mensagem Inspiradora ao Visitante</span>
+                <p class="font-outfit text-sm sm:text-lg italic leading-relaxed font-light">
                     “{col['message']}”
                 </p>
-                <div class="mt-6 flex items-center gap-3 text-xs font-semibold text-white/80">
-                    <span class="w-6 h-[2px] bg-white/40"></span>
-                    <span>Homenagem da Coleção {acronym} e VPPCB na SBPC 2026</span>
+                <div class="mt-4 flex items-center gap-2.5 text-[10px] font-semibold text-white/80">
+                    <span class="w-4 h-[1px] bg-white/40"></span>
+                    <span>VPPCB Fiocruz • SBPC 2026</span>
                 </div>
             </div>
         </div>
 
     </main>
 
-    <!-- Navigation Hub Portal Link -->
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-16 text-center">
-        <a href="../index.html" class="inline-flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-full hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow shadow-black/10 active:scale-95">
+    <!-- Navigation Hub (Touch target size min-height 44px) -->
+    <section class="max-w-4xl mx-auto px-4 pb-12 text-center">
+        <a href="../index.html" class="inline-flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-xl hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow active:scale-95 min-h-[44px]">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-            Ver Outras Homenageadas
+            Outras Homenageadas
         </a>
     </section>
 
     <!-- Footer -->
     <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-gray-500">
+        <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
             <div class="text-center sm:text-left">
-                <span class="font-bold text-gray-400 block text-sm uppercase">FIOCRUZ</span>
+                <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
                 <span class="block mt-0.5">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
             </div>
             <div class="text-center sm:text-right">
-                <p>© 2026 Fundação Oswaldo Cruz. Desenvolvido para a SBPC 2026 (Niterói/UFF).</p>
+                <p>© 2026 Fundação Oswaldo Cruz. SBPC 2026 (Niterói/UFF).</p>
             </div>
         </div>
     </footer>
 
-    <!-- Tab Switching and TTS Scripting -->
+    <!-- TTS Scripting -->
     <script>
-        // Tab system
-        function switchTab(index) {{
-            const btns = document.querySelectorAll(".tab-btn");
-            const panels = document.querySelectorAll(".tab-panel");
-            
-            btns.forEach((btn, idx) => {{
-                if (idx === index) {{
-                    btn.className = "tab-btn py-4 border-b-2 {col['theme']['accent_border']} {col['theme']['accent_text']} font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300";
-                }} else {{
-                    btn.className = "tab-btn py-4 border-b-2 border-transparent text-gray-500 hover:text-gray-800 font-bold text-sm uppercase tracking-wider focus:outline-none transition-all duration-300";
-                }}
-            }});
-            
-            panels.forEach((panel, idx) => {{
-                if (idx === index) {{
-                    panel.classList.remove("hidden");
-                    panel.classList.add("block");
-                }} else {{
-                    panel.classList.remove("block");
-                    panel.classList.add("hidden");
-                }}
-            }});
-        }}
-
-        // Text-to-Speech (TTS) logic using Web Speech API
         let speechSynth = window.speechSynthesis;
         let speechUtterance = null;
         let isSpeaking = false;
@@ -991,7 +946,6 @@ def generate_individual_pages():
                 return;
             }}
 
-            // If paused, resume
             if (speechSynth.paused && isSpeaking) {{
                 speechSynth.resume();
                 document.getElementById("play-btn").classList.add("hidden");
@@ -999,14 +953,12 @@ def generate_individual_pages():
                 return;
             }}
 
-            // Stop any ongoing speech
             speechSynth.cancel();
 
             const textToSpeak = "{audio_guide_text_escaped}";
             speechUtterance = new SpeechSynthesisUtterance(textToSpeak);
             speechUtterance.lang = "pt-BR";
             
-            // Set voice to a Portuguese one if available
             const voices = speechSynth.getVoices();
             const ptVoice = voices.find(v => v.lang.startsWith("pt"));
             if (ptVoice) {{
@@ -1044,14 +996,12 @@ def generate_individual_pages():
             document.getElementById("stop-btn").classList.add("hidden");
         }}
 
-        // Cancel speech when leaving page
         window.addEventListener("beforeunload", () => {{
             if (speechSynth) {{
                 speechSynth.cancel();
             }}
         }});
         
-        // Ensure voice list is loaded for Chrome
         if (speechSynth && speechSynth.onvoiceschanged !== undefined) {{
             speechSynth.onvoiceschanged = () => {{}};
         }}
@@ -1062,9 +1012,9 @@ def generate_individual_pages():
         
         with open(os.path.join(sub_path, "index.html"), "w", encoding="utf-8") as f:
             f.write(html_content)
-        print(f"Generated bio page for: {acronym} under {sub_path}/index.html")
+        print(f"Generated mobile-first page for: {acronym} under {sub_path}/index.html")
 
 if __name__ == "__main__":
     generate_home_page()
     generate_individual_pages()
-    print("All pages successfully built!")
+    print("All mobile-responsive pages successfully rebuilt!")
