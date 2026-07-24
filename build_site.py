@@ -191,7 +191,7 @@ collections_data = {
         "message": "A ciência e a saúde pública caminham lado a lado quando dedicamos nosso esforço a levar respostas diretamente do laboratório para o bem-estar da sociedade.",
         "image_path": "../assets/images/CLEP_image1.jpg",
         "theme": {
-            "bg_gradient": "from-amber-600 to-orange-850",
+            "bg_gradient": "from-amber-600 to-orange-900",
             "accent_text": "text-amber-600",
             "accent_bg": "bg-amber-50",
             "accent_border": "border-amber-500",
@@ -216,7 +216,7 @@ collections_data = {
         "message": "Um trabalho exitoso, raramente, inclui apenas uma única mente pensante e duas mãos. O fazer científico constrói-se melhor coletivamente e de forma compartilhada. A ciência está repleta de mulheres imensas, intensas, persistentes e resilientes, para nos inspirar.",
         "image_path": "../assets/images/CLIOC_image1.jpg",
         "theme": {
-            "bg_gradient": "from-fuchsia-600 to-pink-850",
+            "bg_gradient": "from-fuchsia-600 to-pink-900",
             "accent_text": "text-fuchsia-600",
             "accent_bg": "bg-fuchsia-50",
             "accent_border": "border-fuchsia-500",
@@ -258,7 +258,7 @@ collections_data = {
         "researcher_name": "Dra. Niède Guidon",
         "period": "1973–2025",
         "area": "Arqueologia e Preservação de Sítios",
-        "quote": "Eu passo o presente procurando o passado.",
+        "quote": "Neste instante, caro colega do futuro, estendo o meu olhar pela vastidão do que ainda é um pedaço do paraíso - um pedaço do paraíso chamado Serra da Capivara -, [....] e entrego-lhe este texto para que continue a contar como prosseguiu a nossa história, a história de todos nós....",
         "bio": "Dra. Niède Guidon foi uma das maiores arqueólogas brasileiras, formada em História Natural (USP) e doutora pela Université de Paris. Dedicou sua vida à pesquisa no Piauí, liderando expedições que desafiaram a teoria clássica de povoamento das Américas, provando a presença humana no Nordeste muito antes do postulado pelo Estreito de Bering. Faleceu em junho de 2025.",
         "contribution": "Niède foi uma parceira científica indispensável para a CPFERA. Durante suas escavações arqueológicas em abrigos sob rocha, identificava coprólitos (fezes fossilizadas) e materiais orgânicos raros, coletando-os meticulosamente e direcionando-os à coleção da Fiocruz, permitindo estudos paleoepidemiológicos inéditos de parasitos em humanos antigos.",
         "importance": "Mapeou mais de mil sítios arqueológicos no Piauí e liderou a criação do Parque Nacional Serra da Capivara (1979), declarado Patrimônio Cultural da Humanidade pela UNESCO. Fundou a FUMDHAM (Fundação Museu do Homem Americano) e idealizou os museus do Homem Americano e da Natureza, integrando pesquisa arqueológica ao desenvolvimento social da comunidade.",
@@ -266,7 +266,7 @@ collections_data = {
         "message": "Proteger o patrimônio histórico e ambiental de uma nação só é possível quando envolvemos, educamos e oferecemos oportunidades de desenvolvimento social e econômico às populações que vivem ao seu redor.",
         "image_path": "../assets/images/CPFERA_image1.jpeg",
         "theme": {
-            "bg_gradient": "from-amber-850 to-yellow-950",
+            "bg_gradient": "from-amber-900 to-yellow-950",
             "accent_text": "text-amber-800",
             "accent_bg": "bg-amber-50",
             "accent_border": "border-amber-700",
