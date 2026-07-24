@@ -9,7 +9,7 @@ pdf_path = os.path.join(workspace_dir, "qrcodes_displays.pdf")
 temp_dir = os.path.join(workspace_dir, "assets", "temp_qrcodes")
 os.makedirs(temp_dir, exist_ok=True)
 
-# List of collections and names (including new CFAM)
+# List of collections and names (including Programação and Museu da Patologia)
 collections = [
     {"acronym": "CBPM", "name": "Graziela Maciel Barroso"},
     {"acronym": "CCER", "name": "Maria Luiza Felippe Bauer"},
@@ -23,7 +23,9 @@ collections = [
     {"acronym": "CMIOC", "name": "Silvana Carvalho Thiengo"},
     {"acronym": "CPFERA", "name": "Niède Guidon"},
     {"acronym": "CYP_CBAS_CBP", "name": "Alzira Maria Paiva de Almeida"},
-    {"acronym": "MP", "name": "Itália Kerr"}
+    {"acronym": "MP", "name": "Itália Kerr"},
+    {"acronym": "PROGRAMAÇÃO", "name": "SBPC Jovem 2026", "url": "https://colecoesbiologicasfiocruz.netlify.app/programacao.html"},
+    {"acronym": "MUSEU DA PATOLOGIA", "name": "museudapatologia.ioc.fiocruz.br", "url": "http://museudapatologia.ioc.fiocruz.br"}
 ]
 
 base_url = "https://colecoesbiologicasfiocruz.netlify.app"
@@ -33,7 +35,7 @@ print("Generating QR codes...")
 # 1. Generate QR codes as PNGs
 for col in collections:
     acronym = col["acronym"]
-    url = f"{base_url}/{acronym.lower()}/"
+    url = col.get("url", f"{base_url}/{acronym.lower()}/")
     print(f"  URL for {acronym}: {url}")
     
     # Create QR code with minimal border to maximize QR size
@@ -47,7 +49,10 @@ for col in collections:
     qr.make(fit=True)
     
     img = qr.make_image(fill_color="black", back_color="white")
-    img_path = os.path.join(temp_dir, f"{acronym.lower()}_qr.png")
+    
+    # Safe filename from acronym
+    safe_filename = acronym.lower().replace(" ", "_")
+    img_path = os.path.join(temp_dir, f"{safe_filename}_qr.png")
     img.save(img_path)
     col["qr_img"] = img_path
 
@@ -56,13 +61,13 @@ print("Drawing PDF...")
 c = canvas.Canvas(pdf_path, pagesize=A4)
 width, height = A4 # 210 * mm, 297 * mm
 
-# Draw title on the page (shifted up slightly to fit 5 rows)
+# Draw title on the page
 c.setFont("Helvetica-Bold", 14)
 c.drawCentredString(width / 2.0, 284 * mm, "QR Codes para os Displays - SBPC 2026")
 c.setFont("Helvetica", 9)
 c.drawCentredString(width / 2.0, 277 * mm, "Instruções: Recorte na linha tracejada para obter QR codes de exatamente 30 x 30 mm.")
 
-# Grid setup (3 columns, 5 rows to fit 13 items)
+# Grid setup (3 columns, 5 rows to fit 15 items)
 x_start = 30 * mm
 y_start = 224 * mm
 x_spacing = 60 * mm
@@ -78,8 +83,14 @@ for idx, col in enumerate(collections):
     display_acr = col["acronym"].replace("_", "/")
     
     # 2.1 Draw label (above the QR code cutting box)
-    c.setFont("Helvetica-Bold", 9)
+    if len(display_acr) > 15:
+        c.setFont("Helvetica-Bold", 7.5)
+    else:
+        c.setFont("Helvetica-Bold", 9)
+        
     c.drawCentredString(x + 15*mm, y + 36*mm, f"{display_acr}")
+    
+    # Small name text below label
     c.setFont("Helvetica", 7)
     c.drawCentredString(x + 15*mm, y + 32*mm, f"{col['name']}")
     
