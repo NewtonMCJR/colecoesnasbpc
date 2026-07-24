@@ -214,7 +214,7 @@ collections_data = {
         "importance": "A homenagem à Selma representa a valorização fundamental do papel das técnicas e técnicos de laboratório, frequentemente invisibilizados no fazer científico. Seu zelo técnico e sua dedicação diária mantêm a viabilidade das cepas vivas de Leishmania e garantem a integridade da pesquisa científica e das cooperações nacionais e internacionais.",
         "curiosity": "Cresceu vivendo a história da Fiocruz de forma muito próxima, pois quando criança acompanhava seu pai, Rui Quintella, pelo campus de Manguinhos. Além do rigor técnico metódico no trabalho, Selma é conhecida por dominar 'protocolos culinários' herdados de sua família, trazendo alegria e união para a equipe do laboratório.",
         "message": "Um trabalho exitoso, raramente, inclui apenas uma única mente pensante e duas mãos. O fazer científico constrói-se melhor coletivamente e de forma compartilhada. A ciência está repleta de mulheres imensas, intensas, persistentes e resilientes, para nos inspirar.",
-        "image_path": "../assets/images/CLIOC_image1.png",
+        "image_path": "../assets/images/CLIOC_image1.jpg",
         "theme": {
             "bg_gradient": "from-fuchsia-600 to-pink-850",
             "accent_text": "text-fuchsia-600",
