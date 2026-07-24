@@ -40,20 +40,12 @@
         body.loaded {
             opacity: 1;
         }
-        /* Audio Player Bar animation */
-        .audio-bar-in {
-            animation: slideUp 0.3s ease-out forwards;
-        }
-        @keyframes slideUp {
-            from { transform: translateY(100%); }
-            to { transform: translateY(0); }
-        }
     </style>
 </head>
-<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded">
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded font-outfit">
 
     <!-- Top Header Banner (Mobile-ready, large tap targets) -->
-    <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm">
+    <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm font-sans">
         <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
             <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
@@ -96,11 +88,11 @@
                     
                     <h1 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">Silvana Carvalho Thiengo</h1>
                     <p class="text-xs sm:text-base text-gray-300 font-semibold tracking-wide uppercase font-outfit mt-0.5">Malacologia Médica e Curadoria</p>
-                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1">Coleção de Moluscos do Instituto Oswaldo Cruz (CMIOC)</p>
+                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1 font-sans">Coleção de Moluscos do Instituto Oswaldo Cruz (CMIOC)</p>
                     <div class="w-16 h-1 bg-gradient-to-r from-cyan-600 to-teal-800 rounded mt-3"></div>
                     
                     <!-- Career Timeline Summary -->
-                    <div class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start">
+                    <div class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start font-sans">
                         <div>
                             <span class="block text-gray-400 uppercase text-[8px] tracking-wider">Período de atuação</span>
                             <span class="text-xs font-semibold">1982–atual</span>
@@ -113,7 +105,7 @@
                     </div>
                     
                     <!-- Quote of researcher -->
-                    <p class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 border-cyan-500 pl-3.5 leading-relaxed font-light">
+                    <p class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 border-cyan-500 pl-3.5 leading-relaxed font-light font-sans">
                         “Entre moluscos, coleções biológicas e saúde pública, construiu uma trajetória de pioneirismo que inspira novas gerações de cientistas.”
                     </p>
                 </div>
@@ -123,7 +115,7 @@
     </section>
 
     <!-- Audio Guide (Accessible audio player bar - Static + Sticky Bottom on Mobile) -->
-    <div id="audio-container" class="bg-gradient-to-r from-cyan-600 to-teal-800 text-white py-3 shadow-inner relative z-30">
+    <div id="audio-container" class="bg-gradient-to-r from-cyan-600 to-teal-800 text-white py-3 shadow-inner relative z-30 font-sans">
         <div class="max-w-6xl mx-auto px-4 flex items-center justify-between gap-4">
             <div class="flex items-center gap-2.5">
                 <div class="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center flex-shrink-0">
@@ -149,50 +141,47 @@
     </div>
 
     <!-- Main Stacked Content Layout (No Tabs - Fluid Vertical Read) -->
-    <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow">
+    <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow font-sans">
         
-        <!-- Stack of sections -->
-        <div class="flex flex-col gap-6">
-            
-            <!-- Section 1: Biografia -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
-                    1. Quem foi?
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Silvana Carvalho Thiengo é bióloga, mestre em Zoologia pela UFRJ e doutora em Ciências Veterinárias pela UFRRJ. Pesquisadora em Saúde Pública da Fiocruz, dedica-se desde a década de 1980 à Malacologia Médica, com ênfase no estudo de moluscos de importância epidemiológica e na transmissão de parasitos. Está vinculada à Coleção de Moluscos (CMIOC) desde 1982.</p>
-            </div>
-
-            <!-- Section 2: Contribuição -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
-                    2. Sua contribuição para as coleções biológicas
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Esteve à frente da CMIOC por mais de quarenta anos como curadora, liderando a ampliação, organização, modernização e conservação preventiva do acervo. Atuou ativamente no fortalecimento das coleções biológicas da Fiocruz como infraestrutura estratégica de pesquisa e vigilância sanitária nacional.</p>
-            </div>
-
-            <!-- Section 3: Importância -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
-                    3. Por que sua trajetória é importante?
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Referência na Malacologia Médica brasileira, realizou estudos de campo fundamentais sobre a distribuição de moluscos hospedeiros intermediários (como espécies de Biomphalaria, vetores da esquistossomose) em todo o território nacional, gerando mapas de distribuição vitais para subsidiar ações de vigilância epidemiológica do Ministério da Saúde.</p>
-            </div>
-
-            <!-- Section 4: Legado/Curiosidades -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
-                    4. Curiosidades ou legado
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Dra. Silvana é uma das maiores especialistas em ampularídeos, grupo dos maiores gastrópodes dulcícolas do país (os aruás ou 'apple-snails'). Seus estudos de taxonomia e biologia desses animais fortaleceram pesquisas em biodiversidade, ecologia e controle biológico.</p>
-            </div>
-            
-        </div>
-
         
+            <div class="flex flex-col gap-6">
+                <!-- Section 1: Biografia -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
+                        1. Quem foi?
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Silvana Carvalho Thiengo é bióloga, mestre em Zoologia pela UFRJ e doutora em Ciências Veterinárias pela UFRRJ. Pesquisadora em Saúde Pública da Fiocruz, dedica-se desde a década de 1980 à Malacologia Médica, com ênfase no estudo de moluscos de importância epidemiológica e na transmissão de parasitos. Está vinculada à Coleção de Moluscos (CMIOC) desde 1982.</p>
+                </div>
+
+                <!-- Section 2: Contribuição -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
+                        2. Sua contribuição para as coleções biológicas
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Esteve à frente da CMIOC por mais de quarenta anos como curadora, liderando a ampliação, organização, modernização e conservação preventiva do acervo. Atuou ativamente no fortalecimento das coleções biológicas da Fiocruz como infraestrutura estratégica de pesquisa e vigilância sanitária nacional.</p>
+                </div>
+
+                <!-- Section 3: Importância -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
+                        3. Por que sua trajetória é importante?
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Referência na Malacologia Médica brasileira, realizou estudos de campo fundamentais sobre a distribuição de moluscos hospedeiros intermediários (como espécies de Biomphalaria, vetores da esquistossomose) em todo o território nacional, gerando mapas de distribuição vitais para subsidiar ações de vigilância epidemiológica do Ministério da Saúde.</p>
+                </div>
+
+                <!-- Section 4: Legado/Curiosidades -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b from-cyan-600 to-teal-800 rounded-full mr-2"></span>
+                        4. Curiosidades ou legado
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Dra. Silvana é uma das maiores especialistas em ampularídeos, grupo dos maiores gastrópodes dulcícolas do país (os aruás ou 'apple-snails'). Seus estudos de taxonomia e biologia desses animais fortaleceram pesquisas em biodiversidade, ecologia e controle biológico.</p>
+                </div>
+            </div>
+            
 
         
 
@@ -214,7 +203,7 @@
     </main>
 
     <!-- Navigation Hub (Touch target size min-height 44px) -->
-    <section class="max-w-4xl mx-auto px-4 pb-12 text-center">
+    <section class="max-w-4xl mx-auto px-4 pb-12 text-center font-sans">
         <a href="../index.html" class="inline-flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-xl hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow active:scale-95 min-h-[44px]">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
             Outras Homenageadas
@@ -222,7 +211,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900">
+    <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900 font-sans">
         <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
             <div class="text-center sm:text-left">
                 <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>

@@ -66,7 +66,7 @@ collections_data = {
         "bio": "Pedrina Cunha de Oliveira foi uma destacada micologista brasileira, formada em Farmácia pela Universidade do Brasil (atual UFRJ), com especialização em saúde pública. Ingressou no Instituto Oswaldo Cruz (IOC/Fiocruz) em 1960 como estagiária e, em 1962, realizou o tradicional Curso de Aplicação do IOC, onde consolidou sua formação prática em pesquisa e se especializou em micologia. Entre 1967 e 1969, realizou mestrado na Universidade de Sheffield, na Inglaterra, com foco em genética de fungos. Ao longo de toda a sua trajetória no IOC, atuou nas áreas de micologia médica e genética de fungos, tornando-se uma referência nacional pelo rigor científico e pela relevância de suas contribuições.",
         "contribution": "Atuou na Seção de Micologia e na Coleção de Fungos do IOC. Implantou a linha de pesquisa de genética de fungos (Aspergillus nidulans) e garantiu a continuidade da coleção biológica, evitando sua perda durante a crise institucional dos anos 1970. Entre 1970 e 1975, atuou como chefe e curadora eventual, mantendo praticamente sozinha as atividades científicas e o acervo, além de atuar na formação de alunos e técnicos.",
         "importance": "A trajetória de Pedrina Cunha de Oliveira revela resiliência e profundo compromisso com a ciência em um dos períodos mais difíceis da Fiocruz. Durante a ditadura militar, o 'Massacre de Manguinhos' desestruturou a instituição, impondo restrições e escassez de recursos. Nesse cenário, agravado pelas barreiras enfrentadas pelas mulheres na ciência, Pedrina afirmou sua competência e resistiu. Sua atuação discreta e decisiva garantiu a continuidade da área e formou pesquisadoras que continuaram seu legado.",
-        "curiosity": "Ingressou no IOC em 1960 e construiu uma carreira de mais de 30 anos. Foi chefe do Departamento de Micologia a partir de 1978. Implantou um dos primeiros núcleos de genética de fungos do Brasil, e seu maior legado foi garantir que a micologia permanecesse ativa, relevante e institucionalmente consolidada na Fiocruz.",
+        "curiosity": "Ingressou no IOC em 1960 e construiu uma carreira de mais de 30 anos. Foi chefe do Departamento de Micologia a partir de 1978. Implantou um dos primeiros núcleos de genética de fungos do Brasil, e seu maior legado foi garantir que a micologia permanecesse activa, relevante e institucionalmente consolidada na Fiocruz.",
         "message": "O que você faz, faz a diferença, e você precisa decidir que tipo de diferença quer fazer. (Inspirado em Jane Goodall)",
         "image_path": "../assets/images/CCFF_image1.png",
         "theme": {
@@ -158,7 +158,7 @@ collections_data = {
         "researcher_name": "Marília Martins Nishikawa",
         "period": "1983–2020",
         "area": "Micologia, Microbiologia e Coleções de Microrganismos",
-        "quote": "Sem o effort da busca é impossível a alegria do encontro.",
+        "quote": "Sem o esforço da busca é impossível a alegria do encontro.",
         "bio": "Dra. Marília Martins Nishikawa é biomédica, mestre em Biologia Celular e Molecular e doutora em Vigilância Sanitária pela Fiocruz. Atuou de 1983 a 2020 no Instituto Nacional de Controle de Qualidade em Saúde (INCQS/Fiocruz) como Tecnologista em Saúde Pública. Sua carreira foi inteiramente dedicada à micologia, com foco na caracterização, identificação e preservação de fungos de importância médica e sanitária.",
         "contribution": "Atuou na Coleção de Fungos do Ambiente e Saúde (Fiocruz/CFAS), desenvolvendo pesquisas sobre fungos de interesse médico e ambiental. Liderou a produção, manutenção e fornecimento de fungos de referência, cruciais para controle de qualidade laboratorial, vigilância em saúde e formação de recursos humanos no INCQS.",
         "importance": "Desde 1983 estabeleceu e fortaleceu a CFAS. Desenvolveu estudos pioneiros sobre diversidade genética, epidemiologia e sensibilidade a antifúngicos de fungos patogênicos no Brasil, em especial do gênero Cryptococcus. Atuou fortemente na integração entre as coleções biológicas, pesquisa aplicada e vigilância sanitária.",
@@ -187,7 +187,7 @@ collections_data = {
         "bio": "Dra. Martha Maria Pereira desenvolveu toda sua carreira no Instituto Oswaldo Cruz/Fiocruz com o tema Leptospirose. Bióloga de formação, mestre em Biologia Parasitária e doutora em Biologia Celular e Molecular, impulsionou o conhecimento sobre a doença e seu agente etiológico. Contribuiu significativamente para a saúde pública ao atuar na estruturação de redes de diagnóstico junto ao Ministério da Saúde.",
         "contribution": "Participou do isolamento das primeiras linhagens de Leptospira spp. que compõem o acervo da Coleção de Leptospira. Em 1985, isolou e identificou o sorovar Cuica, um achado inédito no mundo. Sob sua liderança, o Laboratório de Referência Nacional foi credenciado, impulsionando o crescimento e diversificação das cepas da coleção.",
         "importance": "Liderou a estruturação do Serviço de Diagnóstico da Leptospirose do IOC, credenciado como Laboratório de Referência Nacional pelo Ministério da Saúde e, posteriormente, como Centro Colaborador da Organização Mundial da Saúde (OMS) para Leptospirose, consolidando o prestígio científico internacional da Fiocruz na área.",
-        "curiosity": "Atuou como vice-diretora do Instituto Oswaldo Cruz e chefe do Departamento de Bacteriologia. Foi fundamental na formação de centenas de alunos e profissionais de Laboratórios Centrais de Saúde Pública (LACENs) de todo o Brasil, disseminando protocolos e técnicas de diagnóstico da leptospirose.",
+        "curiosity": "Atuou como vice-diretora do Instituto Oswaldo Cruz e chefe do Departamento de Bacteriologia. Foi fundamental na formação de centenas de alunos e profissionais de Laboratórios Centrais de Saúde Pública (LACENs) de todo o Brasil, criando referências diagnósticas sólidas.",
         "message": "A ciência e a saúde pública caminham lado a lado quando dedicamos nosso esforço a levar respostas diretamente do laboratório para o bem-estar da sociedade.",
         "image_path": "../assets/images/CLEP_image1.jpg",
         "theme": {
@@ -280,13 +280,14 @@ collections_data = {
     },
     "CYP_CBAS_CBP": {
         "acronym": "CYP_CBAS_CBP",
+        "display_acronym": "CYP/CBAS/CBP",  # Display with slash as requested
         "collection_name": "Coleção de Culturas de Yersinia pestis",
         "category": "Parasitologia / Microbiologia",
         "researcher_name": "Dra. Alzira Maria Paiva de Almeida",
         "period": "1966–presente",
         "area": "Microbiologia e Vigilância Epidemiológica",
         "quote": "Tem que ter curiosidade, não se limitar... Estar sempre aberta a oportunidades e aquisição de conhecimento... Não ter medo de assumir riscos.",
-        "bio": "Dra. Alzira Maria Paiva de Almeida é graduada em Nutrição e doutora em Microbiologia. Pesquisadora emérita da Fiocruz, atua no Instituto Aggeu Magalhães (Fiocruz PE) desde 1966. Tornou-se uma das maiores especialistas em peste (Yersinia pestis) do mundo, dedicando sua trajetória científica ao controle e vigilância de zoonoses no Brasil.",
+        "bio": "Dra. Alzira Maria Paiva de Almeida é graduada em Nutrição e doutora em Microbiologia. Pesquisadora emérita da Fiocruz, atua no Instituto Aggeu Magalhães (Fiocruz PE) desde 1966. Tornou-se uma das maiores especialistas em peste (Yersinia pestis) do mundo, deixando um legado inestimável no controle e vigilância de zoonoses no Brasil.",
         "contribution": "Curadora da Coleção CYP desde sua institucionalização em 2007. Ela pessoalmente constituiu, isolou de amostras humanas e vetores, catalogou e preservou o acervo biológico desde 1966. Coordena o Serviço de Referência Nacional em Peste (SRP) desde 2002, assessorando diretamente o Ministério da Saúde.",
         "importance": "Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) em 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região.",
         "curiosity": "Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos serviços prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos.",
@@ -342,21 +343,22 @@ def generate_home_page():
     cards_html = ""
     for acronym, col in collections_data.items():
         img_src = col["image_path"]
+        display_acr = col.get("display_acronym", col["acronym"])
         
         cards_html += f"""
-        <!-- Card for {acronym} -->
-        <div class="collection-card group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-150 transition-all duration-300 flex flex-col h-full" data-category="{col['category']}">
+        <!-- Card for {acronym} (Entire card is clickable) -->
+        <a href="{acronym.lower()}/index.html" class="collection-card group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-150 transition-all duration-300 flex flex-col h-full" data-category="{col['category']}">
             <div class="relative overflow-hidden aspect-video bg-gradient-to-br {col['theme']['bg_gradient']} flex items-center justify-center p-3">
                 <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
                 <img src="{img_src}" alt="{col['researcher_name']}" class="h-full w-full object-cover rounded-lg group-hover:scale-103 transition-transform duration-500 shadow-md" />
                 
                 <span class="absolute top-3 left-3 bg-white/95 backdrop-blur text-[10px] font-bold px-2 py-0.5 rounded-full text-gray-800 shadow-sm uppercase tracking-wider">{col['category']}</span>
-                <span class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-[10px] font-mono font-bold px-2 py-0.5 rounded text-white tracking-widest">{acronym}</span>
+                <span class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-[10px] font-mono font-bold px-2 py-0.5 rounded text-white tracking-widest">{display_acr}</span>
             </div>
             
             <div class="p-5 flex flex-col flex-grow">
                 <h3 class="text-lg font-bold text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200 line-clamp-1">{col['researcher_name']}</h3>
-                <p class="text-[11px] font-bold text-gray-400 mt-0.5 uppercase tracking-wider">{col['collection_name']}</p>
+                <p class="text-[11px] font-bold text-gray-400 mt-0.5 uppercase tracking-wider">{col['collection_name'].replace("CYP_CBAS_CBP", "CYP/CBAS/CBP")}</p>
                 
                 <p class="text-xs text-gray-600 italic mt-3 flex-grow line-clamp-3">“{col['quote']}”</p>
                 
@@ -365,15 +367,16 @@ def generate_home_page():
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         {col['period']}
                     </span>
-                    <a href="{acronym.lower()}/index.html" class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200 min-h-[36px] px-2 rounded-lg hover:bg-gray-50">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
-                    </a>
+                    </span>
                 </div>
             </div>
-        </div>
+        </a>
         """
         
+    # Categories filters layout with responsive wrap (no overflow breakdown)
     category_buttons_html = '<button onclick="filterCategory(\'all\')" id="btn-all" class="cat-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300">Todas</button>'
     for cat in categories:
         safe_cat = cat.replace(" ", "_")
@@ -424,7 +427,7 @@ def generate_home_page():
         }}
     </style>
 </head>
-<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded">
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded font-outfit">
 
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
@@ -433,46 +436,46 @@ def generate_home_page():
                 <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
                 <div>
                     <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
-                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider">Coleções Biológicas & VPPCB</p>
+                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider">SBPC 2026</span>
-                <a href="https://fiocruz.br/colecoes-biologicas" target="_blank" class="hidden sm:inline text-xs font-bold text-fiocruz-blue hover:underline">coleções.fiocruz.br</a>
+                <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider font-sans">SBPC 2026</span>
+                <a href="https://fiocruz.br/colecoes-biologicas" target="_blank" class="hidden sm:inline text-xs font-bold text-fiocruz-blue hover:underline font-sans">coleções.fiocruz.br</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero / Intro (More compact for mobile) -->
+    <!-- Hero / Intro -->
     <section class="relative bg-fiocruz-dark text-white py-12 sm:py-20 overflow-hidden">
         <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
         <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl"></div>
         
-        <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 font-sans">
             <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-[10px] sm:text-xs font-bold px-3 py-1 uppercase tracking-widest mb-4 font-outfit">SBPC 2026 • UFF Niterói</span>
             <h2 class="font-outfit text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
-                Mulheres nas <span class="bg-gradient-to-r from-blue-400 via-teal-400 to-fiocruz-gold bg-clip-text text-transparent">Coleções Biológicas</span>
+                Mulheres nas <span class="bg-gradient-to-r from-blue-400 via-teal-400 to-fiocruz-gold bg-clip-text text-transparent font-outfit">Coleções Biológicas</span>
             </h2>
-            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2">
+            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2 font-sans">
                 Descubra as trajetórias inspiradoras de mulheres cientistas que preservaram a biodiversidade e fortaleceram a saúde pública no Brasil.
             </p>
         </div>
     </section>
 
-    <!-- Search & Filter Controls -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-8 relative z-20">
+    <!-- Search & Filter Controls (Fully Responsive - Stacks on mobile) -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-8 relative z-20 w-full font-sans">
         <div class="bg-white rounded-2xl shadow-lg border border-gray-150 p-5 sm:p-7">
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-5">
                 <!-- Search bar -->
                 <div class="relative w-full">
                     <input type="text" id="search-input" onkeyup="searchResearchers()" placeholder="Buscar por pesquisadora, coleção ou área..." class="w-full pl-11 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white transition-all text-sm" />
                     <svg class="w-4 h-4 text-gray-400 absolute left-4 top-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
                 
-                <!-- Category Filter Pills (Scrollable horizontally on mobile) -->
+                <!-- Category Filter Pills (Wrapping dynamically on mobile) -->
                 <div class="flex flex-col gap-2">
                     <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Filtrar por Área:</span>
-                    <div class="flex gap-2 overflow-x-auto pb-1 -mx-2 px-2 scrollbar-none snap-x snap-mandatory">
+                    <div class="flex flex-wrap gap-2 w-full">
                         {category_buttons_html}
                     </div>
                 </div>
@@ -481,7 +484,7 @@ def generate_home_page():
     </section>
 
     <!-- Main Grid Content -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow font-sans">
         <div id="no-results" class="hidden text-center py-16">
             <svg class="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path></svg>
             <h3 class="text-base font-bold text-gray-900">Nenhuma pesquisadora encontrada</h3>
@@ -494,7 +497,7 @@ def generate_home_page():
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm">
+    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm font-sans">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div class="flex items-center gap-3">
@@ -529,13 +532,13 @@ def generate_home_page():
             
             const buttons = document.querySelectorAll(".cat-btn");
             buttons.forEach(btn => {{
-                btn.className = "cat-btn px-4 py-2 text-xs font-semibold rounded-full bg-white text-gray-700 border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm snap-start";
+                btn.className = "cat-btn px-4 py-2 text-xs font-semibold rounded-full bg-white text-gray-700 border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm";
             }});
             
             const activeId = category === "all" ? "btn-all" : "btn-" + category.replace(/ /g, "_");
             const activeBtn = document.getElementById(activeId);
             if (activeBtn) {{
-                activeBtn.className = "cat-btn px-4 py-2 text-xs font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300 snap-start";
+                activeBtn.className = "cat-btn px-4 py-2 text-xs font-semibold rounded-full bg-blue-600 text-white shadow-md border border-blue-600 transition-all duration-300";
             }}
             
             runFiltering();
@@ -587,7 +590,9 @@ def generate_individual_pages():
         sub_path = os.path.join(workspace_dir, acronym.lower())
         os.makedirs(sub_path, exist_ok=True)
         
-        audio_guide_text = f"Homenagem da Coleção {acronym}. {col['researcher_name']}. {col['bio']} {col['contribution']} {col['importance']} {col['curiosity']} Mensagem inspiradora: {col['message']}"
+        display_acr = col.get("display_acronym", col["acronym"])
+        
+        audio_guide_text = f"Homenagem da Coleção {display_acr}. {col['researcher_name']}. {col['bio']} {col['contribution']} {col['importance']} {col['curiosity']} Mensagem inspiradora: {col['message']}"
         audio_guide_text_escaped = audio_guide_text.replace("'", "\\'").replace('"', '\\"').replace("\n", " ")
         
         # Build Videos section HTML (More compact)
@@ -637,11 +642,13 @@ def generate_individual_pages():
             videos_html += "</div></div>"
 
         # Check if CCULI dual researcher layout
-        dual_researcher_html = ""
+        main_content_html = ""
         portrait_card_html = ""
         
         if col.get("is_dual"):
             r1, r2 = col["researchers"][0], col["researchers"][1]
+            
+            # Portrait card: Shows both researchers side-by-side on desktop
             portrait_card_html = f"""
             <div class="grid grid-cols-2 gap-4 items-center">
                 <div class="bg-white/5 border border-white/10 rounded-2xl p-3 flex flex-col items-center text-center shadow-lg backdrop-blur-sm">
@@ -658,41 +665,79 @@ def generate_individual_pages():
                 </div>
             </div>
             """
-            dual_researcher_html = f"""
-            <!-- Dual Researcher Profile Sections -->
-            <div class="mt-8 bg-white rounded-3xl p-5 sm:p-8 border border-gray-150 shadow-md">
-                <h3 class="font-outfit text-lg font-bold text-gray-900 border-b border-gray-100 pb-3 mb-5 flex items-center">
-                    <svg class="w-4 h-4 mr-2 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                    Destaque Biográfico: Dras. Teresa & Monique
-                </h3>
-                
-                <div class="flex flex-col gap-8 divide-y divide-gray-100">
-                    <!-- Teresa Fernandes -->
-                    <div class="flex flex-col gap-3 pb-3">
-                        <div class="flex items-center gap-3">
-                            <img src="{r1['image_path']}" alt="{r1['name']}" class="w-12 h-16 object-cover rounded shadow border border-gray-250" />
-                            <div>
-                                <h4 class="font-bold text-gray-900 leading-tight">{r1['name']}</h4>
-                                <span class="text-xs text-purple-600 font-semibold">{r1['period']}</span>
-                            </div>
+            
+            # Stacked Layout: One researcher description below the other
+            main_content_html = f"""
+            <div class="flex flex-col gap-8">
+                <!-- Researcher 1: Teresa Fernandes -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm">
+                    <div class="flex flex-col sm:flex-row items-center gap-4 border-b border-gray-100 pb-4 mb-5">
+                        <img src="{r1['image_path']}" alt="{r1['name']}" class="w-24 h-32 object-cover rounded-xl shadow-md border border-gray-200" />
+                        <div class="text-center sm:text-left">
+                            <h3 class="font-outfit text-lg sm:text-xl font-bold text-gray-900">{r1['name']}</h3>
+                            <p class="text-xs text-purple-600 font-semibold uppercase tracking-wider mt-0.5">{r1['area']}</p>
+                            <span class="inline-block bg-purple-50 text-purple-700 text-[10px] font-mono px-2.5 py-0.5 rounded-full mt-1.5">{r1['period']}</span>
                         </div>
-                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Quem é:</strong> {r1['bio']}</p>
-                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Contribuição nas Coleções:</strong> {r1['contribution']}</p>
-                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Legado Científico:</strong> {r1['legacy']}</p>
                     </div>
                     
-                    <!-- Monique Motta -->
-                    <div class="flex flex-col gap-3 pt-6">
-                        <div class="flex items-center gap-3">
-                            <img src="{r2['image_path']}" alt="{r2['name']}" class="w-12 h-16 object-cover rounded shadow border border-gray-250" />
-                            <div>
-                                <h4 class="font-bold text-gray-900 leading-tight">{r2['name']}</h4>
-                                <span class="text-xs text-purple-600 font-semibold">{r2['period']}</span>
-                            </div>
+                    <div class="space-y-5">
+                        <div>
+                            <h4 class="font-outfit text-xs sm:text-sm font-bold text-gray-900 mb-1 flex items-center">
+                                <span class="w-1 h-3.5 bg-purple-500 rounded-full mr-2"></span>
+                                Quem foi?
+                            </h4>
+                            <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{r1['bio']}</p>
                         </div>
-                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Quem é:</strong> {r2['bio']}</p>
-                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Contribuição nas Coleções:</strong> {r2['contribution']}</p>
-                        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed"><strong class="text-gray-800">Legado Científico:</strong> {r2['legacy']}</p>
+                        <div>
+                            <h4 class="font-outfit text-xs sm:text-sm font-bold text-gray-900 mb-1 flex items-center">
+                                <span class="w-1 h-3.5 bg-purple-500 rounded-full mr-2"></span>
+                                Sua contribuição para as coleções biológicas
+                            </h4>
+                            <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{r1['contribution']}</p>
+                        </div>
+                        <div>
+                            <h4 class="font-outfit text-xs sm:text-sm font-bold text-gray-900 mb-1 flex items-center">
+                                <span class="w-1 h-3.5 bg-purple-500 rounded-full mr-2"></span>
+                                Por que sua trajetória é importante? / Legado
+                            </h4>
+                            <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{r1['legacy']}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Researcher 2: Monique Motta -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm">
+                    <div class="flex flex-col sm:flex-row items-center gap-4 border-b border-gray-100 pb-4 mb-5">
+                        <img src="{r2['image_path']}" alt="{r2['name']}" class="w-24 h-32 object-cover rounded-xl shadow-md border border-gray-200" />
+                        <div class="text-center sm:text-left">
+                            <h3 class="font-outfit text-lg sm:text-xl font-bold text-gray-900">{r2['name']}</h3>
+                            <p class="text-xs text-purple-600 font-semibold uppercase tracking-wider mt-0.5">{r2['area']}</p>
+                            <span class="inline-block bg-purple-50 text-purple-700 text-[10px] font-mono px-2.5 py-0.5 rounded-full mt-1.5">{r2['period']}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-5">
+                        <div>
+                            <h4 class="font-outfit text-xs sm:text-sm font-bold text-gray-900 mb-1 flex items-center">
+                                <span class="w-1 h-3.5 bg-purple-500 rounded-full mr-2"></span>
+                                Quem foi?
+                            </h4>
+                            <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{r2['bio']}</p>
+                        </div>
+                        <div>
+                            <h4 class="font-outfit text-xs sm:text-sm font-bold text-gray-900 mb-1 flex items-center">
+                                <span class="w-1 h-3.5 bg-purple-500 rounded-full mr-2"></span>
+                                Sua contribuição para as coleções biológicas
+                            </h4>
+                            <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{r2['contribution']}</p>
+                        </div>
+                        <div>
+                            <h4 class="font-outfit text-xs sm:text-sm font-bold text-gray-900 mb-1 flex items-center">
+                                <span class="w-1 h-3.5 bg-purple-500 rounded-full mr-2"></span>
+                                Por que sua trajetória é importante? / Legado
+                            </h4>
+                            <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{r2['legacy']}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -707,13 +752,54 @@ def generate_individual_pages():
                 </div>
             </div>
             """
+            
+            # Single researcher: standard vertical list of 4 sections
+            main_content_html = f"""
+            <div class="flex flex-col gap-6">
+                <!-- Section 1: Biografia -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                        1. Quem foi?
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['bio']}</p>
+                </div>
+
+                <!-- Section 2: Contribuição -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                        2. Sua contribuição para as coleções biológicas
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['contribution']}</p>
+                </div>
+
+                <!-- Section 3: Importância -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                        3. Por que sua trajetória é importante?
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['importance']}</p>
+                </div>
+
+                <!-- Section 4: Legado/Curiosidades -->
+                <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
+                    <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
+                        <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
+                        4. Curiosidades ou legado
+                    </h3>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['curiosity']}</p>
+                </div>
+            </div>
+            """
 
         html_content = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{col['researcher_name']} - Coleção {acronym} | FIOCRUZ SBPC 2026</title>
+    <title>{col['researcher_name']} - Coleção {display_acr} | FIOCRUZ SBPC 2026</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -750,27 +836,19 @@ def generate_individual_pages():
         body.loaded {{
             opacity: 1;
         }}
-        /* Audio Player Bar animation */
-        .audio-bar-in {{
-            animation: slideUp 0.3s ease-out forwards;
-        }}
-        @keyframes slideUp {{
-            from {{ transform: translateY(100%); }}
-            to {{ transform: translateY(0); }}
-        }}
     </style>
 </head>
-<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded">
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded font-outfit">
 
     <!-- Top Header Banner (Mobile-ready, large tap targets) -->
-    <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm">
+    <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm font-sans">
         <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
             <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
                 Portal SBPC
             </a>
             <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
-                <span>{acronym}</span>
+                <span>{display_acr}</span>
                 <span>|</span>
                 <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
             </div>
@@ -794,16 +872,16 @@ def generate_individual_pages():
                 <div class="w-full lg:w-2/3 flex flex-col">
                     <span class="inline-flex items-center gap-1.5 self-start px-2.5 py-0.5 rounded-full text-[9px] font-bold bg-white/10 text-white border border-white/10 uppercase tracking-widest mb-4 font-mono">
                         <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                        Homenageada {acronym}
+                        Homenageada {display_acr}
                     </span>
                     
                     <h1 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">{col['researcher_name']}</h1>
                     <p class="text-xs sm:text-base text-gray-300 font-semibold tracking-wide uppercase font-outfit mt-0.5">{col['area']}</p>
-                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1">{col['collection_name']} ({acronym})</p>
+                    <p class="text-[10px] text-gray-400 font-mono tracking-wider mt-1 font-sans">{col['collection_name'].replace("CYP_CBAS_CBP", "CYP/CBAS/CBP")} ({display_acr})</p>
                     <div class="w-16 h-1 bg-gradient-to-r {col['theme']['bg_gradient']} rounded mt-3"></div>
                     
                     <!-- Career Timeline Summary -->
-                    <div class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start">
+                    <div class="mt-4 flex gap-4 text-[10px] font-mono text-gray-300 bg-white/5 border border-white/10 rounded-xl p-3 self-start font-sans">
                         <div>
                             <span class="block text-gray-400 uppercase text-[8px] tracking-wider">Período de atuação</span>
                             <span class="text-xs font-semibold">{col['period']}</span>
@@ -816,7 +894,7 @@ def generate_individual_pages():
                     </div>
                     
                     <!-- Quote of researcher -->
-                    <p class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 {col['theme']['accent_border']} pl-3.5 leading-relaxed font-light">
+                    <p class="mt-6 text-sm sm:text-base italic text-gray-200 border-l-4 {col['theme']['accent_border']} pl-3.5 leading-relaxed font-light font-sans">
                         “{col['quote']}”
                     </p>
                 </div>
@@ -826,7 +904,7 @@ def generate_individual_pages():
     </section>
 
     <!-- Audio Guide (Accessible audio player bar - Static + Sticky Bottom on Mobile) -->
-    <div id="audio-container" class="bg-gradient-to-r {col['theme']['bg_gradient']} text-white py-3 shadow-inner relative z-30">
+    <div id="audio-container" class="bg-gradient-to-r {col['theme']['bg_gradient']} text-white py-3 shadow-inner relative z-30 font-sans">
         <div class="max-w-6xl mx-auto px-4 flex items-center justify-between gap-4">
             <div class="flex items-center gap-2.5">
                 <div class="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center flex-shrink-0">
@@ -852,50 +930,9 @@ def generate_individual_pages():
     </div>
 
     <!-- Main Stacked Content Layout (No Tabs - Fluid Vertical Read) -->
-    <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow">
+    <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow font-sans">
         
-        <!-- Stack of sections -->
-        <div class="flex flex-col gap-6">
-            
-            <!-- Section 1: Biografia -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
-                    1. Quem foi?
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['bio']}</p>
-            </div>
-
-            <!-- Section 2: Contribuição -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
-                    2. Sua contribuição para as coleções biológicas
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['contribution']}</p>
-            </div>
-
-            <!-- Section 3: Importância -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
-                    3. Por que sua trajetória é importante?
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['importance']}</p>
-            </div>
-
-            <!-- Section 4: Legado/Curiosidades -->
-            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:border-gray-300">
-                <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4 flex items-center">
-                    <span class="w-1.5 h-4 bg-gradient-to-b {col['theme']['bg_gradient']} rounded-full mr-2"></span>
-                    4. Curiosidades ou legado
-                </h3>
-                <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">{col['curiosity']}</p>
-            </div>
-            
-        </div>
-
-        {dual_researcher_html}
+        {main_content_html}
 
         {videos_html}
 
@@ -917,7 +954,7 @@ def generate_individual_pages():
     </main>
 
     <!-- Navigation Hub (Touch target size min-height 44px) -->
-    <section class="max-w-4xl mx-auto px-4 pb-12 text-center">
+    <section class="max-w-4xl mx-auto px-4 pb-12 text-center font-sans">
         <a href="../index.html" class="inline-flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-xl hover:bg-slate-800 transition-all font-bold text-xs uppercase tracking-wider shadow active:scale-95 min-h-[44px]">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
             Outras Homenageadas
@@ -925,7 +962,7 @@ def generate_individual_pages():
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900">
+    <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900 font-sans">
         <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
             <div class="text-center sm:text-left">
                 <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
