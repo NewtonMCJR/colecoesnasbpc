@@ -176,6 +176,32 @@ collections_data = {
         },
         "videos": []
     },
+    "CFAM": {
+        "acronym": "CFAM",
+        "collection_name": "Coleção de Fungos da Amazônia",
+        "category": "Micologia (Fungos)",
+        "researcher_name": "Dra. Maria Inês de Moura Sarquis",
+        "period": "1980–presente",
+        "area": "Micologia / Biotecnologia Fúngica",
+        "quote": "Preservar a biodiversidade dos fungos da Amazônia é salvaguardar a riqueza de nossa floresta e abrir caminhos infinitos para a biotecnologia.",
+        "bio": "Dra. Maria Inês de Moura Sarquis é bióloga, pesquisadora associada da Fundação Oswaldo Cruz e a idealizadora da Coleção de Fungos da Amazônia (CFAM), do Instituto Leônidas e Maria Deane – Fiocruz Amazônia.",
+        "contribution": "Visionária e dedicada à ciência, foi a principal incentivadora da criação da CFAM, deixando um legado que continua impulsionando a pesquisa, a conservação da biodiversidade microbiana amazônica e a formação de novos pesquisadores.",
+        "importance": "Sua trajetória científica foi marcada por importantes contribuições ao estudo da microbiologia, com destaque para as pesquisas sobre a longevidade e as alterações biomorfológicas de fungos preservados, além da prospecção de fungos Hyphomycetes para a produção de enzimas de interesse biotecnológico.",
+        "curiosity": "Seu compromisso com a excelência científica, a preservação do patrimônio microbiológico e o avanço do conhecimento permanece vivo em cada amostra conservada na CFAM e em cada pesquisa desenvolvida a partir de seu trabalho. Seu legado inspira a ciência, fortalece a Fiocruz Amazônia e perpetua a missão da CFAM de preservar, conhecer e valorizar a diversidade fúngica da Amazônia.",
+        "message": "Preservar a biodiversidade fúngica da Amazônia é o nosso compromisso com a ciência, com a vida e com as futuras gerações de pesquisadores que continuarão a contar essa história.",
+        "image_path": "../assets/images/CFAM_Image1.png",
+        "card_image_path": "../assets/images/CFAM_Image2.png",
+        "theme": {
+            "bg_gradient": "from-emerald-700 to-green-900",
+            "accent_text": "text-emerald-700",
+            "accent_bg": "bg-emerald-50",
+            "accent_border": "border-emerald-500",
+            "btn_bg": "bg-emerald-700 hover:bg-emerald-800",
+            "shadow": "shadow-emerald-100",
+            "focus_ring": "focus:ring-emerald-500"
+        },
+        "videos": []
+    },
     "CLEP": {
         "acronym": "CLEP",
         "collection_name": "Coleção de Leptospira",
@@ -342,7 +368,7 @@ def generate_home_page():
     
     cards_html = ""
     for acronym, col in collections_data.items():
-        img_src = col["image_path"]
+        img_src = col.get("card_image_path", col["image_path"])
         display_acr = col.get("display_acronym", col["acronym"])
         
         cards_html += f"""
@@ -1100,7 +1126,8 @@ def generate_programacao_page():
             "description": "Descubra como os fungos podem ser aliados na produção de alimentos, como os queijos Camembert e Roquefort, e conheça também espécies que contaminam alimentos. A atividade reúne modelos didáticos, culturas de fungos e observações ao microscópio para revelar esse universo invisível. Aproveite para explorar o papel dos fungos nas doenças humanas e os desafios da resistência aos antifúngicos. Por meio de modelos interativos, culturas e simulações de testes laboratoriais, descubra como a ciência atua no diagnóstico, tratamento e vigilância dessas infecções.",
             "collections": [
                 {"acronym": "CCFF", "path": "ccff/index.html", "researcher": "Pedrina Cunha de Oliveira"},
-                {"acronym": "CFAS", "path": "cfas/index.html", "researcher": "Marília Martins Nishikawa"}
+                {"acronym": "CFAS", "path": "cfas/index.html", "researcher": "Marília Martins Nishikawa"},
+                {"acronym": "CFAM", "path": "cfam/index.html", "researcher": "Dra. Maria Inês de Moura Sarquis"}
             ],
             "gradient": "from-rose-600 to-pink-800"
         },
