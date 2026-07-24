@@ -189,7 +189,7 @@ collections_data = {
         "importance": "Liderou a estruturação do Serviço de Diagnóstico da Leptospirose do IOC, credenciado como Laboratório de Referência Nacional pelo Ministério da Saúde e, posteriormente, como Centro Colaborador da Organização Mundial da Saúde (OMS) para Leptospirose, consolidando o prestígio científico internacional da Fiocruz na área.",
         "curiosity": "Atuou como vice-diretora do Instituto Oswaldo Cruz e chefe do Departamento de Bacteriologia. Foi fundamental na formação de centenas de alunos e profissionais de Laboratórios Centrais de Saúde Pública (LACENs) de todo o Brasil, criando referências diagnósticas sólidas.",
         "message": "A ciência e a saúde pública caminham lado a lado quando dedicamos nosso esforço a levar respostas diretamente do laboratório para o bem-estar da sociedade.",
-        "image_path": "../assets/images/CLEP_image2.jpg",
+        "image_path": "../assets/images/CLEP_image1.jpg",
         "theme": {
             "bg_gradient": "from-amber-600 to-orange-850",
             "accent_text": "text-amber-600",
