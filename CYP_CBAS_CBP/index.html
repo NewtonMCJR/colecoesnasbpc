@@ -47,14 +47,25 @@
     <!-- Top Header Banner (Mobile-ready, large tap targets) -->
     <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm font-sans">
         <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-            <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
-                Portal SBPC
-            </a>
-            <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
-                <span>CYP/CBAS/CBP</span>
-                <span>|</span>
-                <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
+            <div class="flex items-center gap-2">
+                <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+                    Portal SBPC
+                </a>
+                <div class="h-4 w-px bg-gray-200"></div>
+                <a href="../programacao.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
+                    Programação
+                </a>
+            </div>
+            <div class="flex items-center gap-3">
+                <!-- colecionarPop logo next to acronym in bio header -->
+                <img src="../assets/images/colecionarPop.png" alt="Colecionar Pop" class="h-6 w-auto" />
+                <div class="h-4 w-px bg-gray-200"></div>
+                <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
+                    <span>CYP/CBAS/CBP</span>
+                    <span>|</span>
+                    <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
+                </div>
             </div>
         </div>
     </header>
@@ -127,7 +138,7 @@
                 </div>
             </div>
             
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 font-sans">
                 <button onclick="startAudio()" id="play-btn" class="flex items-center gap-1.5 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-slate-100 active:scale-95 shadow-md min-h-[36px] transition-all">
                     <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
                     Ouvir
@@ -140,7 +151,7 @@
         </div>
     </div>
 
-    <!-- Main Stacked Content Layout (No Tabs - Fluid Vertical Read) -->
+    <!-- Main Stacked Content Layout -->
     <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow font-sans">
         
         
@@ -169,7 +180,7 @@
                         <span class="w-1.5 h-4 bg-gradient-to-b from-orange-600 to-red-800 rounded-full mr-2"></span>
                         3. Por que sua trajetória é importante?
                     </h3>
-                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) em 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região.</p>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) in 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região.</p>
                 </div>
 
                 <!-- Section 4: Legado/Curiosidades -->
@@ -178,13 +189,13 @@
                         <span class="w-1.5 h-4 bg-gradient-to-b from-orange-600 to-red-800 rounded-full mr-2"></span>
                         4. Curiosidades ou legado
                     </h3>
-                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos serviços prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos.</p>
+                    <p class="text-xs sm:text-sm text-gray-700 leading-relaxed font-light">Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos services prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos.</p>
                 </div>
             </div>
             
 
         
-            <div class="mt-10 border-t border-gray-150 pt-8">
+            <div class="mt-10 border-t border-gray-150 pt-8 font-sans">
                 <h3 class="font-outfit text-lg font-bold text-gray-900 mb-4 flex items-center">
                     <svg class="w-5 h-5 mr-2 text-red-600" fill="currentColor" viewBox="0 0 24 24"><path d="M23 12a11 11 0 11-22 0 11 11 0 0122 0zm-13.5 5.5l7.5-5.5-7.5-5.5v11z"></path></svg>
                     Vídeos e Conteúdos Relacionados
@@ -195,7 +206,7 @@
                         <div class="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 flex-shrink-0">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                         </div>
-                        <div class="overflow-hidden">
+                        <div class="overflow-hidden font-sans">
                             <span class="text-xs sm:text-sm font-semibold text-gray-800 block leading-tight truncate group-hover:underline">Trajetórias de Mulheres na Fiocruz</span>
                             <span class="text-[10px] text-gray-400 mt-0.5 block">Acessar acervo histórico</span>
                         </div>
@@ -205,7 +216,7 @@
                         <div class="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 flex-shrink-0">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                         </div>
-                        <div class="overflow-hidden">
+                        <div class="overflow-hidden font-sans">
                             <span class="text-xs sm:text-sm font-semibold text-gray-800 block leading-tight truncate group-hover:underline">Histórias para Inspirar Cientistas (Fiocruz)</span>
                             <span class="text-[10px] text-gray-400 mt-0.5 block">Acessar acervo histórico</span>
                         </div>
@@ -215,7 +226,7 @@
         <!-- Inspiring Message Card -->
         <div class="mt-8 bg-gradient-to-br from-orange-600 to-red-800 rounded-2xl p-6 sm:p-10 text-white relative overflow-hidden shadow-md">
             <div class="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative z-10">
+            <div class="relative z-10 font-sans">
                 <span class="text-[9px] font-mono font-bold tracking-widest text-white/80 uppercase block mb-3">Mensagem Inspiradora ao Visitante</span>
                 <p class="font-outfit text-sm sm:text-lg italic leading-relaxed font-light">
                     “Com tenacidade de nordestina, aprendi que ser cientista exige coragem para ir ao campo e curiosidade incessante no laboratório, pois não há limites para quem busca transformar conhecimento em proteção da saúde.”
@@ -240,9 +251,14 @@
     <!-- Footer -->
     <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900 font-sans">
         <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
-            <div class="text-center sm:text-left">
-                <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
-                <span class="block mt-0.5">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
+            <!-- Logo_Colecoes.jpg included next to VPPCB in individual page footer -->
+            <div class="flex items-center gap-3 text-left">
+                <img src="../assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-10 w-auto rounded border border-slate-800 shadow-sm" />
+                <div class="h-8 w-px bg-slate-800"></div>
+                <div>
+                    <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
+                    <span class="block mt-0.5 font-sans">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
+                </div>
             </div>
             <div class="text-center sm:text-right">
                 <p>© 2026 Fundação Oswaldo Cruz. SBPC 2026 (Niterói/UFF).</p>
@@ -271,7 +287,7 @@
 
             speechSynth.cancel();
 
-            const textToSpeak = "Homenagem da Coleção CYP/CBAS/CBP. Dra. Alzira Maria Paiva de Almeida. Dra. Alzira Maria Paiva de Almeida é graduada em Nutrição e doutora em Microbiologia. Pesquisadora emérita da Fiocruz, atua no Instituto Aggeu Magalhães (Fiocruz PE) desde 1966. Tornou-se uma das maiores especialistas em peste (Yersinia pestis) do mundo, deixando um legado inestimável no controle e vigilância de zoonoses no Brasil. Curadora da Coleção CYP desde sua institucionalização em 2007. Ela pessoalmente constituiu, isolou de amostras humanas e vetores, catalogou e preservou o acervo biológico desde 1966. Coordena o Serviço de Referência Nacional em Peste (SRP) desde 2002, assessorando diretamente o Ministério da Saúde. Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) em 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região. Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos serviços prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos. Mensagem inspiradora: Com tenacidade de nordestina, aprendi que ser cientista exige coragem para ir ao campo e curiosidade incessante no laboratório, pois não há limites para quem busca transformar conhecimento em proteção da saúde.";
+            const textToSpeak = "Homenagem da Coleção CYP/CBAS/CBP. Dra. Alzira Maria Paiva de Almeida. Dra. Alzira Maria Paiva de Almeida é graduada em Nutrição e doutora em Microbiologia. Pesquisadora emérita da Fiocruz, atua no Instituto Aggeu Magalhães (Fiocruz PE) desde 1966. Tornou-se uma das maiores especialistas em peste (Yersinia pestis) do mundo, deixando um legado inestimável no controle e vigilância de zoonoses no Brasil. Curadora da Coleção CYP desde sua institucionalização em 2007. Ela pessoalmente constituiu, isolou de amostras humanas e vetores, catalogou e preservou o acervo biológico desde 1966. Coordena o Serviço de Referência Nacional em Peste (SRP) desde 2002, assessorando diretamente o Ministério da Saúde. Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) in 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região. Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos services prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos. Mensagem inspiradora: Com tenacidade de nordestina, aprendi que ser cientista exige coragem para ir ao campo e curiosidade incessante no laboratório, pois não há limites para quem busca transformar conhecimento em proteção da saúde.";
             speechUtterance = new SpeechSynthesisUtterance(textToSpeak);
             speechUtterance.lang = "pt-BR";
             

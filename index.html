@@ -48,37 +48,49 @@
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-            <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-3">
                 <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
                 <div>
                     <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
                     <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
                 </div>
-            </div>
-            <div class="flex items-center gap-3">
+            </a>
+            <div class="flex items-center gap-3 sm:gap-6">
+                <!-- Programacao Page link added to Header -->
+                <a href="programacao.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50">
+                    <svg class="w-4 h-4 text-fiocruz-blue" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    Programação
+                </a>
                 <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider font-sans">SBPC 2026</span>
-                <a href="https://fiocruz.br/colecoes-biologicas" target="_blank" class="hidden sm:inline text-xs font-bold text-fiocruz-blue hover:underline font-sans">coleções.fiocruz.br</a>
             </div>
         </div>
     </header>
 
     <!-- Hero / Intro -->
-    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-20 overflow-hidden">
+    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-20 overflow-hidden font-sans">
         <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
         <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl"></div>
         
-        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 font-sans">
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+            <!-- colecionarPop banner logo added in upper hero -->
+            <img src="assets/images/colecionarPop.png" alt="Colecionar Pop" class="mx-auto h-20 sm:h-24 w-auto mb-6 drop-shadow-md" />
+            
             <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-[10px] sm:text-xs font-bold px-3 py-1 uppercase tracking-widest mb-4 font-outfit">SBPC 2026 • UFF Niterói</span>
             <h2 class="font-outfit text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
                 Mulheres nas <span class="bg-gradient-to-r from-blue-400 via-teal-400 to-fiocruz-gold bg-clip-text text-transparent font-outfit">Coleções Biológicas</span>
             </h2>
-            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2 font-sans">
+            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2 mb-6 font-sans">
                 Descubra as trajetórias inspiradoras de mulheres cientistas que preservaram a biodiversidade e fortaleceram a saúde pública no Brasil.
             </p>
+            <!-- Button linking directly to the new Programacao page -->
+            <a href="programacao.html" class="inline-flex items-center gap-2 bg-fiocruz-blue hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-xl transition-all shadow-md active:scale-95">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                Ver Programação das Coleções
+            </a>
         </div>
     </section>
 
-    <!-- Search & Filter Controls (Fully Responsive - Stacks on mobile) -->
+    <!-- Search & Filter Controls -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-8 relative z-20 w-full font-sans">
         <div class="bg-white rounded-2xl shadow-lg border border-gray-150 p-5 sm:p-7">
             <div class="flex flex-col gap-5">
@@ -136,7 +148,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1946–2003
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-emerald-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-emerald-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -165,7 +177,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1981–presente
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-indigo-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-indigo-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -194,7 +206,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1960–1995
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-rose-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-rose-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -223,7 +235,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1980–2024
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-purple-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-purple-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -252,7 +264,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1997–2015
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-blue-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -281,7 +293,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1983–2020
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-pink-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-pink-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -310,7 +322,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1980–atual
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-amber-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-amber-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -339,7 +351,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1987–atual
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-fuchsia-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-fuchsia-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -368,7 +380,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1982–atual
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-cyan-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-cyan-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -397,7 +409,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1973–2025
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-amber-800 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-amber-800 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -426,7 +438,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1966–presente
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-orange-600 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-orange-600 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -455,7 +467,7 @@
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         1957–década de 1990
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-rose-700 transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:text-rose-700 transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -470,8 +482,10 @@
     <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm font-sans">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                <!-- Logo_Colecoes.jpg included next to VPPCB in footer -->
                 <div class="flex items-center gap-3">
-                    <div class="h-6 w-1 bg-fiocruz-gold rounded"></div>
+                    <img src="assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-10 w-auto rounded border border-gray-800 shadow-sm" />
+                    <div class="h-8 w-px bg-gray-800"></div>
                     <div>
                         <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
                         <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>

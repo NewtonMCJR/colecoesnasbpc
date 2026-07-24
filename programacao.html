@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação - Coleções Biológicas FIOCRUZ | SBPC Jovem 2026</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        fiocruz: {
+                            blue: '#00529b',
+                            gold: '#c59b27',
+                            dark: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-outfit { font-family: 'Outfit', sans-serif; }
+        body {
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+        }
+        body.loaded {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded font-outfit">
+
+    <!-- Header Section -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-150 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
+                <div>
+                    <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
+                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
+                </div>
+            </a>
+            <div class="flex items-center gap-3 sm:gap-6">
+                <a href="index.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50 font-sans">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    Portal Homenagens
+                </a>
+                <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider font-sans font-sans">SBPC 2026</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-16 overflow-hidden">
+        <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 font-sans">
+            <!-- colecionarPop logo next to Title in schedule hero -->
+            <img src="assets/images/colecionarPop.png" alt="Colecionar Pop" class="mx-auto h-20 sm:h-24 w-auto mb-4 drop-shadow-md" />
+            <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-[10px] sm:text-xs font-bold px-3 py-1 uppercase tracking-widest mb-3 font-outfit">SBPC Jovem 2026</span>
+            <h2 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">
+                Programação de Atividades
+            </h2>
+            <p class="text-xs sm:text-base text-gray-300 font-light max-w-xl mx-auto leading-relaxed">
+                Confira a programação diária e as atividades das Coleções Biológicas da Fiocruz na SBPC Jovem (UFF/Niterói).
+            </p>
+        </div>
+    </section>
+
+    <!-- Timeline Content -->
+    <main class="max-w-3xl mx-auto px-4 py-10 sm:py-16 flex-grow w-full font-sans">
+        <div class="flex flex-col gap-8 relative border-l-2 border-gray-200 pl-6 sm:pl-8 ml-2 sm:ml-4">
+            
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br from-orange-600 to-red-800 border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">27/07/2026</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">Segunda-feira</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">Vigilância, Prevenção e Vetores da Peste no Semiárido</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    Como as bactérias crescem? Quem são os vetores da peste? Venha descobrir! Nesta atividade, o público poderá explorar modelos didáticos, observar bactérias ao microscópio, conhecer placas de cultura e modelos 3D, além de mergulhar na história da peste no Brasil. Também será possível interagir com materiais utilizados na vigilância em campo, como armadilhas para roedores, EPIs e modelos de pulgas, e conhecer como a ciência contribui para a preservação das coleções microbiológicas da Fiocruz.
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        
+            <a href="cyp_cbas_cbp/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CYP/CBAS/CBP</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Dra. Alzira Maria Paiva de Almeida</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br from-rose-600 to-pink-800 border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">28/07/2026</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">Terça-feira</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">Mundo dos Fungos, Nutrição e Desafios Antifúngicos</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    Descubra como os fungos podem ser aliados na produção de alimentos, como os queijos Camembert e Roquefort, e conheça também espécies que contaminam alimentos. A atividade reúne modelos didáticos, culturas de fungos e observações ao microscópio para revelar esse universo invisível. Aproveite para explorar o papel dos fungos nas doenças humanas e os desafios da resistência aos antifúngicos. Por meio de modelos interativos, culturas e simulações de testes laboratoriais, descubra como a ciência atua no diagnóstico, tratamento e vigilância dessas infecções.
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        
+            <a href="ccff/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CCFF</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Pedrina Cunha de Oliveira</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+            <a href="cfas/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CFAS</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Marília Martins Nishikawa</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br from-indigo-600 to-purple-800 border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">29/07/2026</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">Quarta-feira</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">Insetos e Vetores: O Fascinante Universo dos Mosquitos</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    Descubra o fascinante universo dos mosquitos! Explore exemplares da coleção científica, observe estruturas ao microscópio, conheça o ciclo de vida desses insetos e veja de perto os materiais utilizados pelos pesquisadores para sua coleta e estudo.
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        
+            <a href="ccer/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CCER</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Dra. Maria Luiza Felippe Bauer</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+            <a href="cculi/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CCULI</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Dras. Teresa Fernandes & Monique Motta</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br from-emerald-600 to-teal-800 border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">30/07/2026</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">Quinta-feira</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">Anatomia Animal, Histologia e Plantas Medicinais</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    Explore o universo da anatomia e da botânica por meio de modelos 3D de órgãos, conheça a técnica histológica e descubra o uso das plantas medicinais. Observe estruturas animais e vegetais e entenda como a ciência revela a organização e o funcionamento dos seres vivos.
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        
+            <a href="cbpm/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CBPM</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Graziela Maciel Barroso</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+            <a href="ceioc/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CEIOC</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Danielle Cerri do Nascimento</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+            <a href="mp/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">MP</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Dra. Itália Kerr</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br from-amber-600 to-orange-900 border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">31/07/2026</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">Sexta-feira</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">Maquetes Interativas de Transmissão e Prevenção Sanitária</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    Explore uma maquete interativa que mostra como ocorre a transmissão de Leptospira spp., Listeria spp. e de patógenos associados aos moluscos. Descubra, de forma dinâmica e acessível, como esses microrganismos circulam no ambiente e quais medidas ajudam a prevenir essas doenças.
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        
+            <a href="clep/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CLEP</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Dra. Martha Maria Pereira</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+            <a href="cmioc/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CMIOC</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Silvana Carvalho Thiengo</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br from-fuchsia-600 to-pink-900 border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">01/08/2026</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">Sábado</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">Paleoparasitologia, Saúde Histórica e o Ciclo da Leishmania</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    Viaje ao passado e descubra como a ciência investiga a história da saúde, da alimentação e dos parasitos. Explore amostras da coleção, réplicas de coprólitos em 3D, conheça a técnica de sedimentação de Lutz e observe vestígios da dieta de animais herbívoros e carnívoros por meio de modelos e materiais expositivos. Conheça o fascinante ciclo de vida da Leishmania! Observe células infectadas ao microscópio, explore modelos 3D das diferentes fases do parasito e descubra, por meio de imagens ilustrativas, como ele interage com o organismo e causa a leishmaniose.
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        
+            <a href="cpfera/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CPFERA</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Dra. Niède Guidon</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+            <a href="clioc/index.html" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">CLIOC</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">Selma Quintella Soares</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                <!-- Logo_Colecoes.jpg included next to VPPCB in footer -->
+                <div class="flex items-center gap-3">
+                    <img src="assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-10 w-auto rounded border border-gray-800 shadow-sm" />
+                    <div class="h-8 w-px bg-gray-800"></div>
+                    <div>
+                        <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
+                        <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
+                    </div>
+                </div>
+                <div class="flex gap-4 text-xs text-gray-400">
+                    <a href="https://fiocruz.br" target="_blank" class="hover:text-white transition-colors">Portal Fiocruz</a>
+                    <a href="https://sbpc.uff.br/" target="_blank" class="hover:text-white transition-colors">SBPC 2026</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-6 pt-6 text-center text-[11px] text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-2">
+                <p>© 2026 Fundação Oswaldo Cruz. Desenvolvido para a SBPC 2026 (Niterói/UFF).</p>
+                <p class="italic">Reconhecendo trajetórias que inspiram a ciência.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

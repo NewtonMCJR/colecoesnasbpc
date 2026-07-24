@@ -63,10 +63,10 @@ collections_data = {
         "period": "1960–1995",
         "area": "Micologia Médica e Genética de Fungos",
         "quote": "O que você faz, faz a diferença, e você precisa decidir que tipo de diferença quer fazer.",
-        "bio": "Pedrina Cunha de Oliveira foi uma destacada micologista brasileira, formada em Farmácia pela Universidade do Brasil (atual UFRJ), com especialização em saúde pública. Ingressou no Instituto Oswaldo Cruz (IOC/Fiocruz) em 1960 como estagiária e, em 1962, realizou o tradicional Curso de Aplicação do IOC, onde consolidou sua formação prática em pesquisa e se especializou em micologia. Entre 1967 e 1969, realizou mestrado na Universidade de Sheffield, na Inglaterra, com foco em genética de fungos. Ao longo de toda a sua trajetória no IOC, atuou nas áreas de micologia médica e genética de fungos, tornando-se uma referência nacional pelo rigor científico e pela relevância de suas contribuições.",
+        "bio": "Pedrina Cunha de Oliveira foi uma destacada micologista brasileira, formada em Farmácia pela Universidade do Brasil (atual UFRJ), com especialização em saúde pública. Ingressou no Instituto Oswaldo Cruz (IOC/Fiocruz) in 1960 como estagiária e, em 1962, realizou o tradicional Curso de Aplicação do IOC, onde consolidou sua formação prática em pesquisa e se especializou em micologia. Entre 1967 e 1969, realizou mestrado na Universidade de Sheffield, na Inglaterra, com foco em genética de fungos. Ao longo de toda a sua trajetória no IOC, atuou nas áreas de micologia médica e genética de fungos, tornando-se uma referência nacional pelo rigor científico e pela relevância de suas contribuições.",
         "contribution": "Atuou na Seção de Micologia e na Coleção de Fungos do IOC. Implantou a linha de pesquisa de genética de fungos (Aspergillus nidulans) e garantiu a continuidade da coleção biológica, evitando sua perda durante a crise institucional dos anos 1970. Entre 1970 e 1975, atuou como chefe e curadora eventual, mantendo praticamente sozinha as atividades científicas e o acervo, além de atuar na formação de alunos e técnicos.",
         "importance": "A trajetória de Pedrina Cunha de Oliveira revela resiliência e profundo compromisso com a ciência em um dos períodos mais difíceis da Fiocruz. Durante a ditadura militar, o 'Massacre de Manguinhos' desestruturou a instituição, impondo restrições e escassez de recursos. Nesse cenário, agravado pelas barreiras enfrentadas pelas mulheres na ciência, Pedrina afirmou sua competência e resistiu. Sua atuação discreta e decisiva garantiu a continuidade da área e formou pesquisadoras que continuaram seu legado.",
-        "curiosity": "Ingressou no IOC em 1960 e construiu uma carreira de mais de 30 anos. Foi chefe do Departamento de Micologia a partir de 1978. Implantou um dos primeiros núcleos de genética de fungos do Brasil, e seu maior legado foi garantir que a micologia permanecesse activa, relevante e institucionalmente consolidada na Fiocruz.",
+        "curiosity": "Ingressou no IOC in 1960 e construiu uma carreira de mais de 30 anos. Foi chefe do Departamento de Micologia a partir de 1978. Implantou um dos primeiros núcleos de genética de fungos do Brasil, e seu maior legado foi garantir que a micologia permanecesse activa, relevante e institucionalmente consolidada na Fiocruz.",
         "message": "O que você faz, faz a diferença, e você precisa decidir que tipo de diferença quer fazer. (Inspirado em Jane Goodall)",
         "image_path": "../assets/images/CCFF_image5.png",
         "theme": {
@@ -289,8 +289,8 @@ collections_data = {
         "quote": "Tem que ter curiosidade, não se limitar... Estar sempre aberta a oportunidades e aquisição de conhecimento... Não ter medo de assumir riscos.",
         "bio": "Dra. Alzira Maria Paiva de Almeida é graduada em Nutrição e doutora em Microbiologia. Pesquisadora emérita da Fiocruz, atua no Instituto Aggeu Magalhães (Fiocruz PE) desde 1966. Tornou-se uma das maiores especialistas em peste (Yersinia pestis) do mundo, deixando um legado inestimável no controle e vigilância de zoonoses no Brasil.",
         "contribution": "Curadora da Coleção CYP desde sua institucionalização em 2007. Ela pessoalmente constituiu, isolou de amostras humanas e vetores, catalogou e preservou o acervo biológico desde 1966. Coordena o Serviço de Referência Nacional em Peste (SRP) desde 2002, assessorando diretamente o Ministério da Saúde.",
-        "importance": "Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) em 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região.",
-        "curiosity": "Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos serviços prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos.",
+        "importance": "Em 1981, realizou treinamento no CDC (EUA) e implantou a fabricação nacional de insumos sorológicos para diagnóstico da peste, eliminando a dependência do Brasil de importações caras. Ingressou nas pesquisas de campo no semiárido pernambucano (Exu-PE) in 1966 como a única mulher da equipe, quebrando preconceitos e abrindo portas para a inserção acadêmica feminina na região.",
+        "curiosity": "Orientou mais de 70 estudantes de pós-graduação e iniciação científica e publicou mais de 130 artigos científicos. Recebeu o título de Cidadã Exuense em 2015 em honra aos services prestados à população local. Continua ativa como pesquisadora emérita aos mais de 80 anos.",
         "message": "Com tenacidade de nordestina, aprendi que ser cientista exige coragem para ir ao campo e curiosidade incessante no laboratório, pois não há limites para quem busca transformar conhecimento em proteção da saúde.",
         "image_path": "../assets/images/CYP_CBAS_CBP_image1.png",
         "theme": {
@@ -367,7 +367,7 @@ def generate_home_page():
                         <svg class="w-3.5 h-3.5 mr-1 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         {col['period']}
                     </span>
-                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200">
+                    <span class="inline-flex items-center text-[11px] font-bold tracking-wider uppercase text-gray-900 group-hover:{col['theme']['accent_text']} transition-colors duration-200 font-sans">
                         Saber Mais 
                         <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
                     </span>
@@ -432,37 +432,49 @@ def generate_home_page():
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-            <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-3">
                 <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
                 <div>
                     <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
                     <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
                 </div>
-            </div>
-            <div class="flex items-center gap-3">
+            </a>
+            <div class="flex items-center gap-3 sm:gap-6">
+                <!-- Programacao Page link added to Header -->
+                <a href="programacao.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50">
+                    <svg class="w-4 h-4 text-fiocruz-blue" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    Programação
+                </a>
                 <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider font-sans">SBPC 2026</span>
-                <a href="https://fiocruz.br/colecoes-biologicas" target="_blank" class="hidden sm:inline text-xs font-bold text-fiocruz-blue hover:underline font-sans">coleções.fiocruz.br</a>
             </div>
         </div>
     </header>
 
     <!-- Hero / Intro -->
-    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-20 overflow-hidden">
+    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-20 overflow-hidden font-sans">
         <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
         <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl"></div>
         
-        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 font-sans">
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+            <!-- colecionarPop banner logo added in upper hero -->
+            <img src="assets/images/colecionarPop.png" alt="Colecionar Pop" class="mx-auto h-20 sm:h-24 w-auto mb-6 drop-shadow-md" />
+            
             <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-[10px] sm:text-xs font-bold px-3 py-1 uppercase tracking-widest mb-4 font-outfit">SBPC 2026 • UFF Niterói</span>
             <h2 class="font-outfit text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
                 Mulheres nas <span class="bg-gradient-to-r from-blue-400 via-teal-400 to-fiocruz-gold bg-clip-text text-transparent font-outfit">Coleções Biológicas</span>
             </h2>
-            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2 font-sans">
+            <p class="text-sm sm:text-lg text-gray-300 font-light max-w-xl mx-auto leading-relaxed px-2 mb-6 font-sans">
                 Descubra as trajetórias inspiradoras de mulheres cientistas que preservaram a biodiversidade e fortaleceram a saúde pública no Brasil.
             </p>
+            <!-- Button linking directly to the new Programacao page -->
+            <a href="programacao.html" class="inline-flex items-center gap-2 bg-fiocruz-blue hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-xl transition-all shadow-md active:scale-95">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                Ver Programação das Coleções
+            </a>
         </div>
     </section>
 
-    <!-- Search & Filter Controls (Fully Responsive - Stacks on mobile) -->
+    <!-- Search & Filter Controls -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-8 relative z-20 w-full font-sans">
         <div class="bg-white rounded-2xl shadow-lg border border-gray-150 p-5 sm:p-7">
             <div class="flex flex-col gap-5">
@@ -500,8 +512,10 @@ def generate_home_page():
     <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm font-sans">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                <!-- Logo_Colecoes.jpg included next to VPPCB in footer -->
                 <div class="flex items-center gap-3">
-                    <div class="h-6 w-1 bg-fiocruz-gold rounded"></div>
+                    <img src="assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-10 w-auto rounded border border-gray-800 shadow-sm" />
+                    <div class="h-8 w-px bg-gray-800"></div>
                     <div>
                         <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
                         <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
@@ -599,7 +613,7 @@ def generate_individual_pages():
         videos_html = ""
         if col["videos"]:
             videos_html += """
-            <div class="mt-10 border-t border-gray-150 pt-8">
+            <div class="mt-10 border-t border-gray-150 pt-8 font-sans">
                 <h3 class="font-outfit text-lg font-bold text-gray-900 mb-4 flex items-center">
                     <svg class="w-5 h-5 mr-2 text-red-600" fill="currentColor" viewBox="0 0 24 24"><path d="M23 12a11 11 0 11-22 0 11 11 0 0122 0zm-13.5 5.5l7.5-5.5-7.5-5.5v11z"></path></svg>
                     Vídeos e Conteúdos Relacionados
@@ -633,7 +647,7 @@ def generate_individual_pages():
                         <div class="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 flex-shrink-0">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                         </div>
-                        <div class="overflow-hidden">
+                        <div class="overflow-hidden font-sans">
                             <span class="text-xs sm:text-sm font-semibold text-gray-800 block leading-tight truncate group-hover:underline">{vid['title']}</span>
                             <span class="text-[10px] text-gray-400 mt-0.5 block">{link_label}</span>
                         </div>
@@ -843,14 +857,25 @@ def generate_individual_pages():
     <!-- Top Header Banner (Mobile-ready, large tap targets) -->
     <header class="bg-white border-b border-gray-150 sticky top-0 z-40 shadow-sm font-sans">
         <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-            <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
-                Portal SBPC
-            </a>
-            <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
-                <span>{display_acr}</span>
-                <span>|</span>
-                <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
+            <div class="flex items-center gap-2">
+                <a href="../index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+                    Portal SBPC
+                </a>
+                <div class="h-4 w-px bg-gray-200"></div>
+                <a href="../programacao.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-wider min-h-[44px] px-2 rounded-lg hover:bg-gray-50">
+                    Programação
+                </a>
+            </div>
+            <div class="flex items-center gap-3">
+                <!-- colecionarPop logo next to acronym in bio header -->
+                <img src="../assets/images/colecionarPop.png" alt="Colecionar Pop" class="h-6 w-auto" />
+                <div class="h-4 w-px bg-gray-200"></div>
+                <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
+                    <span>{display_acr}</span>
+                    <span>|</span>
+                    <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
+                </div>
             </div>
         </div>
     </header>
@@ -916,7 +941,7 @@ def generate_individual_pages():
                 </div>
             </div>
             
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 font-sans">
                 <button onclick="startAudio()" id="play-btn" class="flex items-center gap-1.5 bg-white text-gray-900 text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-full hover:bg-slate-100 active:scale-95 shadow-md min-h-[36px] transition-all">
                     <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
                     Ouvir
@@ -929,7 +954,7 @@ def generate_individual_pages():
         </div>
     </div>
 
-    <!-- Main Stacked Content Layout (No Tabs - Fluid Vertical Read) -->
+    <!-- Main Stacked Content Layout -->
     <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-grow font-sans">
         
         {main_content_html}
@@ -939,7 +964,7 @@ def generate_individual_pages():
         <!-- Inspiring Message Card -->
         <div class="mt-8 bg-gradient-to-br {col['theme']['bg_gradient']} rounded-2xl p-6 sm:p-10 text-white relative overflow-hidden shadow-md">
             <div class="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative z-10">
+            <div class="relative z-10 font-sans">
                 <span class="text-[9px] font-mono font-bold tracking-widest text-white/80 uppercase block mb-3">Mensagem Inspiradora ao Visitante</span>
                 <p class="font-outfit text-sm sm:text-lg italic leading-relaxed font-light">
                     “{col['message']}”
@@ -964,9 +989,14 @@ def generate_individual_pages():
     <!-- Footer -->
     <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900 font-sans">
         <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
-            <div class="text-center sm:text-left">
-                <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
-                <span class="block mt-0.5">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
+            <!-- Logo_Colecoes.jpg included next to VPPCB in individual page footer -->
+            <div class="flex items-center gap-3 text-left">
+                <img src="../assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-10 w-auto rounded border border-slate-800 shadow-sm" />
+                <div class="h-8 w-px bg-slate-800"></div>
+                <div>
+                    <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
+                    <span class="block mt-0.5 font-sans">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
+                </div>
             </div>
             <div class="text-center sm:text-right">
                 <p>© 2026 Fundação Oswaldo Cruz. SBPC 2026 (Niterói/UFF).</p>
@@ -1054,7 +1084,245 @@ def generate_individual_pages():
             f.write(html_content)
         print(f"Generated mobile-first page for: {acronym} under {sub_path}/index.html")
 
+# 3. GENERATE PROGRAMACAO PAGE (programacao.html)
+def generate_programacao_page():
+    schedule_data = [
+        {
+            "date": "27/07/2026",
+            "day": "Segunda-feira",
+            "title": "Vigilância, Prevenção e Vetores da Peste no Semiárido",
+            "description": "Como as bactérias crescem? Quem são os vetores da peste? Venha descobrir! Nesta atividade, o público poderá explorar modelos didáticos, observar bactérias ao microscópio, conhecer placas de cultura e modelos 3D, além de mergulhar na história da peste no Brasil. Também será possível interagir com materiais utilizados na vigilância em campo, como armadilhas para roedores, EPIs e modelos de pulgas, e conhecer como a ciência contribui para a preservação das coleções microbiológicas da Fiocruz.",
+            "collections": [
+                {"acronym": "CYP/CBAS/CBP", "path": "cyp_cbas_cbp/index.html", "researcher": "Dra. Alzira Maria Paiva de Almeida"}
+            ],
+            "gradient": "from-orange-600 to-red-800"
+        },
+        {
+            "date": "28/07/2026",
+            "day": "Terça-feira",
+            "title": "Mundo dos Fungos, Nutrição e Desafios Antifúngicos",
+            "description": "Descubra como os fungos podem ser aliados na produção de alimentos, como os queijos Camembert e Roquefort, e conheça também espécies que contaminam alimentos. A atividade reúne modelos didáticos, culturas de fungos e observações ao microscópio para revelar esse universo invisível. Aproveite para explorar o papel dos fungos nas doenças humanas e os desafios da resistência aos antifúngicos. Por meio de modelos interativos, culturas e simulações de testes laboratoriais, descubra como a ciência atua no diagnóstico, tratamento e vigilância dessas infecções.",
+            "collections": [
+                {"acronym": "CCFF", "path": "ccff/index.html", "researcher": "Pedrina Cunha de Oliveira"},
+                {"acronym": "CFAS", "path": "cfas/index.html", "researcher": "Marília Martins Nishikawa"}
+            ],
+            "gradient": "from-rose-600 to-pink-800"
+        },
+        {
+            "date": "29/07/2026",
+            "day": "Quarta-feira",
+            "title": "Insetos e Vetores: O Fascinante Universo dos Mosquitos",
+            "description": "Descubra o fascinante universo dos mosquitos! Explore exemplares da coleção científica, observe estruturas ao microscópio, conheça o ciclo de vida desses insetos e veja de perto os materiais utilizados pelos pesquisadores para sua coleta e estudo.",
+            "collections": [
+                {"acronym": "CCER", "path": "ccer/index.html", "researcher": "Dra. Maria Luiza Felippe Bauer"},
+                {"acronym": "CCULI", "path": "cculi/index.html", "researcher": "Dras. Teresa Fernandes & Monique Motta"}
+            ],
+            "gradient": "from-indigo-600 to-purple-800"
+        },
+        {
+            "date": "30/07/2026",
+            "day": "Quinta-feira",
+            "title": "Anatomia Animal, Histologia e Plantas Medicinais",
+            "description": "Explore o universo da anatomia e da botânica por meio de modelos 3D de órgãos, conheça a técnica histológica e descubra o uso das plantas medicinais. Observe estruturas animais e vegetais e entenda como a ciência revela a organização e o funcionamento dos seres vivos.",
+            "collections": [
+                {"acronym": "CBPM", "path": "cbpm/index.html", "researcher": "Graziela Maciel Barroso"},
+                {"acronym": "CEIOC", "path": "ceioc/index.html", "researcher": "Danielle Cerri do Nascimento"},
+                {"acronym": "MP", "path": "mp/index.html", "researcher": "Dra. Itália Kerr"}
+            ],
+            "gradient": "from-emerald-600 to-teal-800"
+        },
+        {
+            "date": "31/07/2026",
+            "day": "Sexta-feira",
+            "title": "Maquetes Interativas de Transmissão e Prevenção Sanitária",
+            "description": "Explore uma maquete interativa que mostra como ocorre a transmissão de Leptospira spp., Listeria spp. e de patógenos associados aos moluscos. Descubra, de forma dinâmica e acessível, como esses microrganismos circulam no ambiente e quais medidas ajudam a prevenir essas doenças.",
+            "collections": [
+                {"acronym": "CLEP", "path": "clep/index.html", "researcher": "Dra. Martha Maria Pereira"},
+                {"acronym": "CMIOC", "path": "cmioc/index.html", "researcher": "Silvana Carvalho Thiengo"}
+            ],
+            "gradient": "from-amber-600 to-orange-900"
+        },
+        {
+            "date": "01/08/2026",
+            "day": "Sábado",
+            "title": "Paleoparasitologia, Saúde Histórica e o Ciclo da Leishmania",
+            "description": "Viaje ao passado e descubra como a ciência investiga a história da saúde, da alimentação e dos parasitos. Explore amostras da coleção, réplicas de coprólitos em 3D, conheça a técnica de sedimentação de Lutz e observe vestígios da dieta de animais herbívoros e carnívoros por meio de modelos e materiais expositivos. Conheça o fascinante ciclo de vida da Leishmania! Observe células infectadas ao microscópio, explore modelos 3D das diferentes fases do parasito e descubra, por meio de imagens ilustrativas, como ele interage com o organismo e causa a leishmaniose.",
+            "collections": [
+                {"acronym": "CPFERA", "path": "cpfera/index.html", "researcher": "Dra. Niède Guidon"},
+                {"acronym": "CLIOC", "path": "clioc/index.html", "researcher": "Selma Quintella Soares"}
+            ],
+            "gradient": "from-fuchsia-600 to-pink-900"
+        }
+    ]
+
+    timeline_html = ""
+    for item in schedule_data:
+        collections_links_html = ""
+        for c in item["collections"]:
+            collections_links_html += f"""
+            <a href="{c['path']}" class="inline-flex items-center gap-2 bg-slate-50 hover:bg-slate-100 border border-gray-200 px-3 py-2 rounded-xl text-xs font-semibold text-gray-800 shadow-sm transition-all hover:border-gray-300 min-h-[40px]">
+                <span class="font-mono text-fiocruz-blue font-bold">{c['acronym']}</span>
+                <span class="text-[10px] text-gray-400">•</span>
+                <span class="text-gray-600 font-normal">{c['researcher']}</span>
+                <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </a>
+            """
+
+        timeline_html += f"""
+        <!-- Day Node -->
+        <div class="relative">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[26px] sm:-left-[42px] top-2.5 w-4 h-4 rounded-full bg-gradient-to-br {item['gradient']} border-4 border-slate-50 shadow-md"></div>
+            
+            <div class="bg-white border border-gray-150 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md hover:border-gray-300">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-gray-100 pb-3 mb-4">
+                    <div>
+                        <span class="text-[10px] font-mono font-bold text-fiocruz-blue bg-blue-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">{item['date']}</span>
+                        <h3 class="font-outfit text-base sm:text-lg font-bold text-gray-900 mt-1.5">{item['day']}</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-gray-500 italic md:text-right">{item['title']}</span>
+                </div>
+                
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed font-light mb-5">
+                    {item['description']}
+                </p>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Saber mais sobre as Coleções presentes:</span>
+                    <div class="flex flex-wrap gap-2">
+                        {collections_links_html}
+                    </div>
+                </div>
+            </div>
+        </div>
+        """
+
+    html_content = f"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação - Coleções Biológicas FIOCRUZ | SBPC Jovem 2026</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {{
+            theme: {{
+                extend: {{
+                    fontFamily: {{
+                        sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
+                    }},
+                    colors: {{
+                        fiocruz: {{
+                            blue: '#00529b',
+                            gold: '#c59b27',
+                            dark: '#0f172a',
+                        }}
+                    }}
+                }}
+            }}
+        }}
+    </script>
+    <style>
+        .font-outfit {{ font-family: 'Outfit', sans-serif; }}
+        body {{
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+        }}
+        body.loaded {{
+            opacity: 1;
+        }}
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 font-sans min-h-screen flex flex-col antialiased loaded font-outfit">
+
+    <!-- Header Section -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-150 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
+                <div>
+                    <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
+                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
+                </div>
+            </a>
+            <div class="flex items-center gap-3 sm:gap-6">
+                <a href="index.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50 font-sans">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    Portal Homenagens
+                </a>
+                <span class="bg-blue-50 text-blue-700 border border-blue-100 rounded-full text-[9px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 uppercase tracking-wider font-sans font-sans">SBPC 2026</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-fiocruz-dark text-white py-12 sm:py-16 overflow-hidden">
+        <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 font-sans">
+            <!-- colecionarPop logo next to Title in schedule hero -->
+            <img src="assets/images/colecionarPop.png" alt="Colecionar Pop" class="mx-auto h-20 sm:h-24 w-auto mb-4 drop-shadow-md" />
+            <span class="inline-block bg-fiocruz-gold/20 text-fiocruz-gold border border-fiocruz-gold/30 rounded-full text-[10px] sm:text-xs font-bold px-3 py-1 uppercase tracking-widest mb-3 font-outfit">SBPC Jovem 2026</span>
+            <h2 class="font-outfit text-2xl sm:text-4xl font-extrabold tracking-tight mb-2 leading-tight">
+                Programação de Atividades
+            </h2>
+            <p class="text-xs sm:text-base text-gray-300 font-light max-w-xl mx-auto leading-relaxed">
+                Confira a programação diária e as atividades das Coleções Biológicas da Fiocruz na SBPC Jovem (UFF/Niterói).
+            </p>
+        </div>
+    </section>
+
+    <!-- Timeline Content -->
+    <main class="max-w-3xl mx-auto px-4 py-10 sm:py-16 flex-grow w-full font-sans">
+        <div class="flex flex-col gap-8 relative border-l-2 border-gray-200 pl-6 sm:pl-8 ml-2 sm:ml-4">
+            {timeline_html}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800 text-sm font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                <!-- Logo_Colecoes.jpg included next to VPPCB in footer -->
+                <div class="flex items-center gap-3">
+                    <img src="assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-10 w-auto rounded border border-gray-800 shadow-sm" />
+                    <div class="h-8 w-px bg-gray-800"></div>
+                    <div>
+                        <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
+                        <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
+                    </div>
+                </div>
+                <div class="flex gap-4 text-xs text-gray-400">
+                    <a href="https://fiocruz.br" target="_blank" class="hover:text-white transition-colors">Portal Fiocruz</a>
+                    <a href="https://sbpc.uff.br/" target="_blank" class="hover:text-white transition-colors">SBPC 2026</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-6 pt-6 text-center text-[11px] text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-2">
+                <p>© 2026 Fundação Oswaldo Cruz. Desenvolvido para a SBPC 2026 (Niterói/UFF).</p>
+                <p class="italic">Reconhecendo trajetórias que inspiram a ciência.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+"""
+    
+    with open(os.path.join(workspace_dir, "programacao.html"), "w", encoding="utf-8") as f:
+        f.write(html_content)
+    print("Generated responsive program schedule (programacao.html)")
+
 if __name__ == "__main__":
     generate_home_page()
     generate_individual_pages()
+    generate_programacao_page()
     print("All mobile-responsive pages successfully rebuilt!")
