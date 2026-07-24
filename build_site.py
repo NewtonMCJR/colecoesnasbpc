@@ -33,7 +33,7 @@ collections_data = {
     "CCER": {
         "acronym": "CCER",
         "collection_name": "Coleção de Ceratopogonidae",
-        "category": "Zoologia (Insetos)",
+        "category": "Zoológicas",
         "researcher_name": "Dra. Maria Luiza Felippe Bauer",
         "period": "1981–presente",
         "area": "Zoologia / Entomologia",
@@ -58,7 +58,7 @@ collections_data = {
     "CCFF": {
         "acronym": "CCFF",
         "collection_name": "Coleção de Culturas de Fungos Filamentosos",
-        "category": "Micologia (Fungos)",
+        "category": "Microbiológicas",
         "researcher_name": "Pedrina Cunha de Oliveira",
         "period": "1960–1995",
         "area": "Micologia Médica e Genética de Fungos",
@@ -85,7 +85,7 @@ collections_data = {
     "CCULI": {
         "acronym": "CCULI",
         "collection_name": "Coleção de Culicidae",
-        "category": "Zoologia (Insetos)",
+        "category": "Zoológicas",
         "is_dual": True,
         "researchers": [
             {
@@ -131,7 +131,7 @@ collections_data = {
     "CEIOC": {
         "acronym": "CEIOC",
         "collection_name": "Coleção Entomológica do Instituto Oswaldo Cruz",
-        "category": "Zoologia (Insetos)",
+        "category": "Zoológicas",
         "researcher_name": "Danielle Cerri do Nascimento",
         "period": "1997–2015",
         "area": "Entomologia e Museologia",
@@ -156,7 +156,7 @@ collections_data = {
     "CFAS": {
         "acronym": "CFAS",
         "collection_name": "Coleção de Fungos do Ambiente e Saúde",
-        "category": "Micologia (Fungos)",
+        "category": "Microbiológicas",
         "researcher_name": "Marília Martins Nishikawa",
         "period": "1983–2020",
         "area": "Micologia, Microbiologia e Coleções de Microrganismos",
@@ -181,7 +181,7 @@ collections_data = {
     "CFAM": {
         "acronym": "CFAM",
         "collection_name": "Coleção de Fungos da Amazônia",
-        "category": "Micologia (Fungos)",
+        "category": "Microbiológicas",
         "researcher_name": "Dra. Maria Inês de Moura Sarquis",
         "period": "1980–presente",
         "area": "Micologia / Biotecnologia Fúngica",
@@ -209,7 +209,7 @@ collections_data = {
     "CLEP": {
         "acronym": "CLEP",
         "collection_name": "Coleção de Leptospira",
-        "category": "Parasitologia / Microbiologia",
+        "category": "Microbiológicas",
         "researcher_name": "Dra. Martha Maria Pereira",
         "period": "1980–atual",
         "area": "Bióloga, com foco no estudo da Leptospirose",
@@ -234,7 +234,7 @@ collections_data = {
     "CLIOC": {
         "acronym": "CLIOC",
         "collection_name": "Coleção de Leishmania do IOC",
-        "category": "Parasitologia / Microbiologia",
+        "category": "Microbiológicas",
         "researcher_name": "Selma Quintella Soares",
         "period": "1987–atual",
         "area": "Técnica em Parasitologia",
@@ -259,7 +259,7 @@ collections_data = {
     "CMIOC": {
         "acronym": "CMIOC",
         "collection_name": "Coleção de Moluscos do Instituto Oswaldo Cruz",
-        "category": "Zoologia (Moluscos)",
+        "category": "Zoológicas",
         "researcher_name": "Silvana Carvalho Thiengo",
         "period": "1982–atual",
         "area": "Malacologia Médica e Curadoria",
@@ -284,7 +284,7 @@ collections_data = {
     "CPFERA": {
         "acronym": "CPFERA",
         "collection_name": "Coleção Paleoparasitológica e de Fezes Recentes de Animais",
-        "category": "Patologia / Arqueologia",
+        "category": "Arqueopaleontológica",
         "researcher_name": "Dra. Niède Guidon",
         "period": "1973–2025",
         "area": "Arqueologia e Preservação de Sítios",
@@ -312,7 +312,7 @@ collections_data = {
         "acronym": "CYP_CBAS_CBP",
         "display_acronym": "CYP/CBAS/CBP",  # Display with slash as requested
         "collection_name": "Coleção de Culturas de Yersinia pestis",
-        "category": "Parasitologia / Microbiologia",
+        "category": "Microbiológicas",
         "researcher_name": "Dra. Alzira Maria Paiva de Almeida",
         "period": "1966–presente",
         "area": "Microbiologia e Vigilância Epidemiológica",
@@ -340,7 +340,7 @@ collections_data = {
     "MP": {
         "acronym": "MP",
         "collection_name": "Coleção de Patologia / Febre Amarela",
-        "category": "Patologia / Arqueologia",
+        "category": "Histopatológicas",
         "researcher_name": "Dra. Itália Kerr",
         "period": "1957–década de 1990",
         "area": "Patologia Experimental e Preservação de Memória",
@@ -465,7 +465,7 @@ def generate_home_page():
             <a href="index.html" class="flex items-center gap-3.5 min-h-[44px]">
                 <img src="assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
                 <div class="h-8 w-px bg-gray-200"></div>
-                <img src="assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-9 sm:h-11 w-auto rounded shadow-sm border border-gray-100" />
+                <img src="assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-11 sm:h-13 w-auto rounded shadow-sm border border-gray-100" />
             </a>
             <div class="flex items-center gap-3 sm:gap-6">
                 <!-- Programacao Page link added to Header -->
@@ -895,7 +895,7 @@ def generate_individual_pages():
             <div class="flex items-center gap-3.5">
                 <span class="text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">{display_acr}</span>
                 <div class="h-4 w-px bg-gray-200"></div>
-                <img src="../assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-6 w-auto rounded shadow-sm border border-gray-100" />
+                <img src="../assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-8 w-auto rounded shadow-sm border border-gray-100" />
                 <div class="h-4 w-px bg-gray-200"></div>
                 <img src="../assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-6 w-auto" />
             </div>
@@ -1270,7 +1270,7 @@ def generate_programacao_page():
             <a href="index.html" class="flex items-center gap-3.5 min-h-[44px]">
                 <img src="assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
                 <div class="h-8 w-px bg-gray-200"></div>
-                <img src="assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-9 sm:h-11 w-auto rounded shadow-sm border border-gray-100" />
+                <img src="assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-11 sm:h-13 w-auto rounded shadow-sm border border-gray-100" />
             </a>
             <div class="flex items-center gap-3 sm:gap-6">
                 <a href="index.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50 font-sans">
