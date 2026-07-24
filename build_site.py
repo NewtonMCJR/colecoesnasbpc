@@ -114,7 +114,7 @@ collections_data = {
         "importance": "Seus estudos revolucionaram o entendimento sobre os vetores da malária e arboviroses em regiões como a Mata Atlântica e a Amazônia. Além disso, foram fundamentais na formação de novas gerações de pesquisadores e no fortalecimento do controle de vetores.",
         "curiosity": "Ambas entraram na Fiocruz nos anos 1980 como estagiárias e completaram cerca de 40 anos de contribuição integral, passando por todos os estágios da carreira acadêmica até se aposentarem recentemente como referências nacionais em mosquitos.",
         "message": "Nossa trajetória mostra que a ciência se constrói com perseverança no campo e cuidado no laboratório, inspirando gerações a continuar desbravando a nossa biodiversidade.",
-        "image_path": "../assets/images/CCULI_image1.png",
+        "image_path": "../assets/images/CCULI_image_2.png",
         "theme": {
             "bg_gradient": "from-purple-600 to-indigo-800",
             "accent_text": "text-purple-600",
