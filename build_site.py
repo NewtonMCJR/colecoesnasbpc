@@ -43,7 +43,7 @@ collections_data = {
         "importance": "Seu legado inclui uma expressiva produção científica, a formação de novos taxonomistas e colaborações com pesquisadores internacionais. Referência na taxonomia de maruins, tornou-se a principal especialista brasileira no grupo e uma das mais importantes da região Neotropical. Em reconhecimento às suas contribuições, duas espécies foram nomeadas em sua homenagem: Culicoides (Mataemyia) felippebauerae Spinelli e Forcipomyia (Microhelea) felippebauerae Clastrier & Wirth.",
         "curiosity": "Primeira e única curadora da Coleção de Ceratopogonidae da Fiocruz (CCER), Dra. Maria Luiza Felippe Bauer descreveu mais de 90 novos táxons, incluindo dois gêneros. Tornou-se referência em vigilância de vetores durante a expansão da Febre Oropouche nas Américas, contribuindo significativamente para o conhecimento da biodiversidade neotropical de maruins e para a valorização das coleções biológicas como patrimônio científico.",
         "message": "A ciência também é construída por mulheres que preservam, investigam e transformam o conhecimento.",
-        "image_path": "../assets/images/CCER_image1.jpeg",
+        "image_path": "../assets/images/CCER_image2.jpeg",
         "theme": {
             "bg_gradient": "from-indigo-600 to-purple-800",
             "accent_text": "text-indigo-600",
@@ -68,7 +68,7 @@ collections_data = {
         "importance": "A trajetória de Pedrina Cunha de Oliveira revela resiliência e profundo compromisso com a ciência em um dos períodos mais difíceis da Fiocruz. Durante a ditadura militar, o 'Massacre de Manguinhos' desestruturou a instituição, impondo restrições e escassez de recursos. Nesse cenário, agravado pelas barreiras enfrentadas pelas mulheres na ciência, Pedrina afirmou sua competência e resistiu. Sua atuação discreta e decisiva garantiu a continuidade da área e formou pesquisadoras que continuaram seu legado.",
         "curiosity": "Ingressou no IOC em 1960 e construiu uma carreira de mais de 30 anos. Foi chefe do Departamento de Micologia a partir de 1978. Implantou um dos primeiros núcleos de genética de fungos do Brasil, e seu maior legado foi garantir que a micologia permanecesse activa, relevante e institucionalmente consolidada na Fiocruz.",
         "message": "O que você faz, faz a diferença, e você precisa decidir que tipo de diferença quer fazer. (Inspirado em Jane Goodall)",
-        "image_path": "../assets/images/CCFF_image1.png",
+        "image_path": "../assets/images/CCFF_image5.png",
         "theme": {
             "bg_gradient": "from-rose-600 to-pink-800",
             "accent_text": "text-rose-600",
@@ -189,7 +189,7 @@ collections_data = {
         "importance": "Liderou a estruturação do Serviço de Diagnóstico da Leptospirose do IOC, credenciado como Laboratório de Referência Nacional pelo Ministério da Saúde e, posteriormente, como Centro Colaborador da Organização Mundial da Saúde (OMS) para Leptospirose, consolidando o prestígio científico internacional da Fiocruz na área.",
         "curiosity": "Atuou como vice-diretora do Instituto Oswaldo Cruz e chefe do Departamento de Bacteriologia. Foi fundamental na formação de centenas de alunos e profissionais de Laboratórios Centrais de Saúde Pública (LACENs) de todo o Brasil, criando referências diagnósticas sólidas.",
         "message": "A ciência e a saúde pública caminham lado a lado quando dedicamos nosso esforço a levar respostas diretamente do laboratório para o bem-estar da sociedade.",
-        "image_path": "../assets/images/CLEP_image1.jpg",
+        "image_path": "../assets/images/CLEP_image2.jpg",
         "theme": {
             "bg_gradient": "from-amber-600 to-orange-850",
             "accent_text": "text-amber-600",
@@ -239,7 +239,7 @@ collections_data = {
         "importance": "Referência na Malacologia Médica brasileira, realizou estudos de campo fundamentais sobre a distribuição de moluscos hospedeiros intermediários (como espécies de Biomphalaria, vetores da esquistossomose) em todo o território nacional, gerando mapas de distribuição vitais para subsidiar ações de vigilância epidemiológica do Ministério da Saúde.",
         "curiosity": "Dra. Silvana é uma das maiores especialistas em ampularídeos, grupo dos maiores gastrópodes dulcícolas do país (os aruás ou 'apple-snails'). Seus estudos de taxonomia e biologia desses animais fortaleceram pesquisas em biodiversidade, ecologia e controle biológico.",
         "message": "Nossa trajetória nas coleções biológicas nos ensina que observar a complexidade da natureza nos mínimos detalhes, como a concha de um molusco, é o primeiro passo para salvaguardar a saúde de toda uma população.",
-        "image_path": "../assets/images/CMIOC_image1.png",
+        "image_path": "../assets/images/CMIOC_image2.png",
         "theme": {
             "bg_gradient": "from-cyan-600 to-teal-800",
             "accent_text": "text-cyan-600",
