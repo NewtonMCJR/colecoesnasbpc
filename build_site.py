@@ -78,7 +78,9 @@ collections_data = {
             "shadow": "shadow-rose-100",
             "focus_ring": "focus:ring-rose-500"
         },
-        "videos": []
+        "videos": [
+            {"title": "Entrevista de Pedrina Cunha de Oliveira (Base Arch - Fiocruz)", "url": "https://basearch.coc.fiocruz.br/index.php/pedrina-cunha-de-oliveira-2"}
+        ]
     },
     "CCULI": {
         "acronym": "CCULI",
@@ -200,7 +202,9 @@ collections_data = {
             "shadow": "shadow-emerald-100",
             "focus_ring": "focus:ring-emerald-500"
         },
-        "videos": []
+        "videos": [
+            {"title": "Entrevista da Dra. Maria Inês de Moura Sarquis (Base Arch - Fiocruz)", "url": "https://basearch.coc.fiocruz.br/index.php/maria-inez-de-moura-sarquis-2"}
+        ]
     },
     "CLEP": {
         "acronym": "CLEP",
@@ -1113,7 +1117,7 @@ def generate_programacao_page():
             "date": "27/07/2026",
             "day": "Segunda-feira",
             "title": "Vigilância, Prevenção e Vetores da Peste no Semiárido",
-            "description": "Como as bactérias crescem? Quem são os vetores da peste? Venha descobrir! Nesta atividade, o público poderá explorar modelos didáticos, observar bactérias ao microscópio, conhecer placas de cultura e modelos 3D, além de mergulhar na história da peste no Brasil. Também será possível interagir com materiais utilizados na vigilância em campo, como armadilhas para roedores, EPIs e modelos de pulgas, e conhecer como a ciência contribui para a preservação das coleções microbiológicas da Fiocruz.",
+            "description": "Como as bactérias crescem? Quem são os vetores da peste? Venha descobrir! Nesta atividade, o público poderá explorar modelos didáticos, observar bactérias ao microscópio, conhecer placas de cultura e modelos 3D, além de mergulhar na história da peste no Brasil. Também será possível interagir com materiais utilizados na vigilância em campo, como armadilhas para roedores, EPIs e modelos de pulgas, e conhecer como a ciência contribui para a preservação das coleções de bactérias da Fiocruz.",
             "collections": [
                 {"acronym": "CYP/CBAS/CBP", "path": "cyp_cbas_cbp/index.html", "researcher": "Dra. Alzira Maria Paiva de Almeida"}
             ],
@@ -1134,8 +1138,8 @@ def generate_programacao_page():
         {
             "date": "29/07/2026",
             "day": "Quarta-feira",
-            "title": "Insetos e Vetores: O Fascinante Universo dos Mosquitos",
-            "description": "Descubra o fascinante universo dos mosquitos! Explore exemplares da coleção científica, observe estruturas ao microscópio, conheça o ciclo de vida desses insetos e veja de perto os materiais utilizados pelos pesquisadores para sua coleta e estudo.",
+            "title": "Insetos e Vetores: O Fascinante Universo dos Insetos",
+            "description": "Descubra o fascinante universo dos insetos! Explore exemplares da coleção científica, observe estruturas ao microscópio, conheça o ciclo de vida desses animais e veja de perto os materiais utilizados pelos pesquisadores para sua coleta e estudo.",
             "collections": [
                 {"acronym": "CCER", "path": "ccer/index.html", "researcher": "Dra. Maria Luiza Felippe Bauer"},
                 {"acronym": "CCULI", "path": "cculi/index.html", "researcher": "Dras. Teresa Fernandes & Monique Motta"}
@@ -1157,8 +1161,8 @@ def generate_programacao_page():
         {
             "date": "31/07/2026",
             "day": "Sexta-feira",
-            "title": "Maquetes Interativas de Transmissão e Prevenção Sanitária",
-            "description": "Explore uma maquete interativa que mostra como ocorre a transmissão de Leptospira spp., Listeria spp. e de patógenos associados aos moluscos. Descubra, de forma dinâmica e acessível, como esses microrganismos circulam no ambiente e quais medidas ajudam a prevenir essas doenças.",
+            "title": "Transmissão Sanitária: Leptospira, Listeria e Schistosoma",
+            "description": "Explore uma maquete que ilustra a transmissão das bactérias Leptospira spp. e Listeria spp. e do trematódeo Schistosoma mansoni, agentes etiológicos da leptospirose, da listeriose e da esquistossomose, respectivamente. Descubra o papel dos corpos hídricos na transmissão dessas doenças e conheça a morfologia desses agentes. Você terá a oportunidade de observar Leptospira spp. e Listeria spp. ao microscópio, além de entender melhor porque a leptospirose é conhecida como a 'doença do xixi do rato'. Durante a atividade, você também poderá observar e manusear conchas de diferentes espécies de caramujos, comparando aquelas que participam da transmissão da esquistossomose com outras espécies terrestres e aquáticas.",
             "collections": [
                 {"acronym": "CLEP", "path": "clep/index.html", "researcher": "Dra. Martha Maria Pereira"},
                 {"acronym": "CMIOC", "path": "cmioc/index.html", "researcher": "Silvana Carvalho Thiengo"}
@@ -1169,7 +1173,7 @@ def generate_programacao_page():
             "date": "01/08/2026",
             "day": "Sábado",
             "title": "Paleoparasitologia, Saúde Histórica e o Ciclo da Leishmania",
-            "description": "Viaje ao passado e descubra como a ciência investiga a história da saúde, da alimentação e dos parasitos. Explore amostras da coleção, réplicas de coprólitos em 3D, conheça a técnica de sedimentação de Lutz e observe vestígios da dieta de animais herbívoros e carnívoros por meio de modelos e materiais expositivos. Conheça o fascinante ciclo de vida da Leishmania! Observe células infectadas ao microscópio, explore modelos 3D das diferentes fases do parasito e descubra, por meio de imagens ilustrativas, como ele interage com o organismo e causa a leishmaniose.",
+            "description": "Viaje ao passado e descubra como a ciência investiga a história da saúde, da alimentação e dos parasitos. Explore amostras da coleção, réplicas de coprólitos em 3D, conheça a técnica de sedimentação de Lutz e observe as diferenças entre vestígios da dieta de animais por meio de modelos e materiais expositivos. Conheça o fascinante ciclo de vida da Leishmania! Observe células infectadas ao microscópio, explore modelos 3D das diferentes fases do parasito e descubra, por meio de imagens ilustrativas, como ele interage com o organismo e causa a leishmaniose.",
             "collections": [
                 {"acronym": "CPFERA", "path": "cpfera/index.html", "researcher": "Dra. Niède Guidon"},
                 {"acronym": "CLIOC", "path": "clioc/index.html", "researcher": "Selma Quintella Soares"}
