@@ -462,12 +462,8 @@ def generate_home_page():
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3">
-                <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
-                <div>
-                    <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
-                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
-                </div>
+            <a href="index.html" class="flex items-center gap-3 min-h-[44px]">
+                <img src="assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
             </a>
             <div class="flex items-center gap-3 sm:gap-6">
                 <!-- Programacao Page link added to Header -->
@@ -543,13 +539,10 @@ def generate_home_page():
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
                 <!-- Logo_Colecoes.jpg included next to VPPCB in footer -->
-                <div class="flex items-center gap-3">
+                <div class="flex items-center gap-4">
                     <img src="assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-14 sm:h-16 w-auto rounded border border-gray-800 shadow-sm" />
                     <div class="h-8 w-px bg-gray-800"></div>
-                    <div>
-                        <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
-                        <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
-                    </div>
+                    <img src="assets/images/logo_fiocruz_negativo.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
                 </div>
                 <div class="flex gap-4 text-xs text-gray-400">
                     <a href="https://fiocruz.br" target="_blank" class="hover:text-white transition-colors">Portal Fiocruz</a>
@@ -899,8 +892,8 @@ def generate_individual_pages():
             </div>
             <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
                 <span>{display_acr}</span>
-                <span>|</span>
-                <span class="text-fiocruz-blue font-sans font-bold">FIOCRUZ</span>
+                <div class="h-4 w-px bg-gray-200"></div>
+                <img src="../assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-6 w-auto" />
             </div>
         </div>
     </header>
@@ -1016,13 +1009,10 @@ def generate_individual_pages():
     <footer class="bg-slate-950 text-white mt-auto border-t border-slate-900 font-sans">
         <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-gray-500">
             <!-- Logo_Colecoes.jpg included next to VPPCB in individual page footer -->
-            <div class="flex items-center gap-3 text-left">
+            <div class="flex items-center gap-4 text-left font-sans">
                 <img src="../assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-14 sm:h-16 w-auto rounded border border-slate-800 shadow-sm" />
                 <div class="h-8 w-px bg-slate-800"></div>
-                <div>
-                    <span class="font-bold text-gray-400 block text-xs uppercase">FIOCRUZ</span>
-                    <span class="block mt-0.5 font-sans">Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB)</span>
-                </div>
+                <img src="../assets/images/logo_fiocruz_negativo.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
             </div>
             <div class="text-center sm:text-right">
                 <p>© 2026 Fundação Oswaldo Cruz. SBPC 2026 (Niterói/UFF).</p>
@@ -1273,12 +1263,8 @@ def generate_programacao_page():
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-150 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3">
-                <div class="h-8 sm:h-10 w-1 bg-fiocruz-blue rounded"></div>
-                <div>
-                    <h1 class="font-outfit text-base sm:text-lg font-bold text-gray-900 tracking-tight leading-none">FIOCRUZ</h1>
-                    <p class="text-[9px] sm:text-xs text-gray-500 font-medium uppercase mt-0.5 tracking-wider font-sans">Coleções Biológicas & VPPCB</p>
-                </div>
+            <a href="index.html" class="flex items-center gap-3 min-h-[44px]">
+                <img src="assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
             </a>
             <div class="flex items-center gap-3 sm:gap-6">
                 <a href="index.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50 font-sans">
@@ -1320,13 +1306,10 @@ def generate_programacao_page():
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
                 <!-- Logo_Colecoes.jpg included next to VPPCB in footer -->
-                <div class="flex items-center gap-3">
+                <div class="flex items-center gap-4">
                     <img src="assets/images/Logo_Colecoes.jpg" alt="Logo Coleções" class="h-14 sm:h-16 w-auto rounded border border-gray-800 shadow-sm" />
                     <div class="h-8 w-px bg-gray-800"></div>
-                    <div>
-                        <span class="font-outfit text-sm font-bold tracking-wider uppercase block">VPPCB FIOCRUZ</span>
-                        <span class="text-[10px] text-gray-400 block">Vice-Presidência de Pesquisa e Coleções Biológicas</span>
-                    </div>
+                    <img src="assets/images/logo_fiocruz_negativo.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
                 </div>
                 <div class="flex gap-4 text-xs text-gray-400">
                     <a href="https://fiocruz.br" target="_blank" class="hover:text-white transition-colors">Portal Fiocruz</a>
