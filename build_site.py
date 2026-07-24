@@ -462,8 +462,10 @@ def generate_home_page():
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3 min-h-[44px]">
+            <a href="index.html" class="flex items-center gap-3.5 min-h-[44px]">
                 <img src="assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
+                <div class="h-8 w-px bg-gray-200"></div>
+                <img src="assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-9 sm:h-11 w-auto rounded shadow-sm border border-gray-100" />
             </a>
             <div class="flex items-center gap-3 sm:gap-6">
                 <!-- Programacao Page link added to Header -->
@@ -890,8 +892,10 @@ def generate_individual_pages():
                     Programação
                 </a>
             </div>
-            <div class="flex items-center gap-3 text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">
-                <span>{display_acr}</span>
+            <div class="flex items-center gap-3.5">
+                <span class="text-[10px] font-semibold text-gray-400 font-mono tracking-widest uppercase">{display_acr}</span>
+                <div class="h-4 w-px bg-gray-200"></div>
+                <img src="../assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-6 w-auto rounded shadow-sm border border-gray-100" />
                 <div class="h-4 w-px bg-gray-200"></div>
                 <img src="../assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-6 w-auto" />
             </div>
@@ -1263,8 +1267,10 @@ def generate_programacao_page():
     <!-- Header Section -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-150 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3 min-h-[44px]">
+            <a href="index.html" class="flex items-center gap-3.5 min-h-[44px]">
                 <img src="assets/images/logo_fiocruz.png" alt="Fiocruz" class="h-10 sm:h-12 w-auto" />
+                <div class="h-8 w-px bg-gray-200"></div>
+                <img src="assets/images/Logo_Colecoes.jpg" alt="Coleções Biológicas" class="h-9 sm:h-11 w-auto rounded shadow-sm border border-gray-100" />
             </a>
             <div class="flex items-center gap-3 sm:gap-6">
                 <a href="index.html" class="text-xs sm:text-sm font-bold text-gray-700 hover:text-fiocruz-blue transition-colors flex items-center gap-1.5 min-h-[40px] px-2 rounded-lg hover:bg-gray-50 font-sans">
